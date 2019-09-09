@@ -6,36 +6,81 @@ using UnityEngine;
 public class PanelManager : MonoBehaviour
 {
     public PanelDuplicator duplicator;
-    public Transform kindsParent;
+    public bool generateOnAwake = true;
 
-    private PanelKind[] kinds;
-    private PanelKind[] safeKinds;
+    [Header("Generated")]
+    [SerializeField]
     private List<PanelSlot> slots = new List<PanelSlot>();
 
-    public PanelKind RandomKind() { return kinds[Random.Range(0, kinds.Length)]; }
-    public PanelKind RandomSafeKind() { return safeKinds[Random.Range(0, safeKinds.Length)]; }
-
-    private void GatherKinds()
-    {
-        kinds = kindsParent.GetComponentsInChildren<PanelKind>();
-        Debug.Assert(kinds.Length > 0);
-        safeKinds = kinds.Where(k => k.isSafe).ToArray();
-        Debug.Assert(safeKinds.Length > 0);
-    }
-
-    private void Process((Vector3Int, GameObject) input)
+    private void RegisterSlot((Vector3Int, GameObject) input)
     {
         var (coords, go) = input;
         var slot = go.GetComponent<PanelSlot>();
-        slots.Add(slot);
-        slot.Begin(this);
+        Debug.Assert(slot);
+        if (slot)
+        {
+            slots.Add(slot);
+            slot.manager = this;
+        }
     }
 
     private void Start()
     {
-        GatherKinds();
+        if (generateOnAwake)
+        {
+            Erase();
+            Generate();
+        }
 
-        duplicator.Result += Process;
-        duplicator.Process();
+        foreach (var slot in slots)
+        {
+            slot.BroadcastMessage("Begin", SendMessageOptions.DontRequireReceiver);
+        }
+    }
+
+    private void Generate()
+    {
+        duplicator.Result += RegisterSlot;
+        try
+        {
+            duplicator.Process();
+        }
+        finally
+        {
+            duplicator.Result -= RegisterSlot;
+        }
+    }
+
+    private void Erase()
+    {
+        foreach (var slot in slots)
+        {
+            Destroy(slot.gameObject);
+        }
+        slots.Clear();
+    }
+
+    private void EraseImmediate()
+    {
+        foreach (var slot in slots)
+        {
+            DestroyImmediate(slot.gameObject);
+        }
+        slots.Clear();
+    }
+
+    [ContextMenu("Erase")]
+    private void ManualErase()
+    {
+        generateOnAwake = true;
+        EraseImmediate();
+    }
+
+    [ContextMenu("Erase and Regenerate")]
+    private void ManualRegenerate()
+    {
+        generateOnAwake = false;
+        EraseImmediate();
+        Generate();
     }
 }
