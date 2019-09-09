@@ -6,10 +6,28 @@ using UnityEngine;
 public class PanelDuplicator : MonoBehaviour
 {
     public GameObject prefab;
+
+    // number of columns, rows, and floors.
     public Vector3Int size = new Vector3Int(10, 1, 10);
-    public Vector3 offset = new Vector3(2, 2, 2);
+
+    public Vector3 offset = new Vector3(defaultMinorLength, 0, hexagonMajorFromMinor(defaultMinorLength));
+    
+    public Vector3 displacementEvenZ = new Vector3(defaultMinorLength / 2, 0, 0);
+
+
 
     public event Action<(Vector3Int, GameObject)> Result;
+
+
+
+    public const float defaultMinorLength = 2;
+    public static float hexagonMajorFromMinor(float minorAxisLength)
+    {
+        return minorAxisLength * 1.15470053838f;
+        //return minorAxisLength * 2.0f / Mathf.Sqrt(3.0f);
+    }
+
+
 
     public void Process()
     {
@@ -19,11 +37,17 @@ public class PanelDuplicator : MonoBehaviour
             {
                 for (int x = 0; x < size.x; x++)
                 {
-                    var go = Instantiate(prefab, transform, false);
                     var coords = new Vector3Int(x, y, z);
+
+                    var go = Instantiate(prefab, transform, false);
                     go.name = prefab.name + " at coords " + coords;
-                    go.transform.localPosition = Vector3.Scale(coords, offset);
+
+                    var pos = Vector3.Scale(coords, offset);
+                    if (z % 2 == 0) { pos += displacementEvenZ; }
+                    go.transform.localPosition = pos;
+
                     go.transform.localRotation = Quaternion.identity;
+
                     Result((coords, go));
                 }
             }
