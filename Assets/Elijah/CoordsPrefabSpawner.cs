@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ public class CoordsPrefabSpawner : MonoBehaviour
     public GameObject prefab;
     public List<Vector3Int> coords = new List<Vector3Int> { new Vector3Int(0, 0, 0) };
 
+    public event Action<Vector3Int, GameObject> onSpawned;
+
     private void Start()
     {
         foreach (var coord in coords)
@@ -17,6 +20,10 @@ public class CoordsPrefabSpawner : MonoBehaviour
             var go = Instantiate(prefab, slot.transform, false);
             go.transform.localPosition = Vector3.zero;
             go.transform.localRotation = Quaternion.identity;
+            if (onSpawned != null)
+            {
+                onSpawned(coord, go);
+            }
         }
     }
 }
