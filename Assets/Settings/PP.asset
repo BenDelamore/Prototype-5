@@ -93,7 +93,7 @@ MonoBehaviour:
     value: 1
   shutterAngle:
     overrideState: 1
-    value: 270
+    value: 180
   sampleCount:
     overrideState: 1
     value: 24
@@ -260,8 +260,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   contrast:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 8
   mixerRedOutRedIn:
     overrideState: 0
     value: 100
