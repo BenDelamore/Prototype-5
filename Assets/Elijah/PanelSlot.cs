@@ -5,4 +5,5 @@ using UnityEngine;
 public class PanelSlot : MonoBehaviour
 {
     public PanelManager manager;
+    public Vector3Int coords;
 }

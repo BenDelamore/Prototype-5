@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+// 3D array of spawned panel slots.
 public class PanelManager : MonoBehaviour
 {
     public PanelDuplicator duplicator;
@@ -11,6 +12,13 @@ public class PanelManager : MonoBehaviour
     [Header("Generated")]
     [SerializeField]
     private List<PanelSlot> slots = new List<PanelSlot>();
+
+    private Dictionary<int, PanelSlot> slotMap;
+
+    public PanelSlot this[Vector3Int coords]
+    {
+        get { return slotMap[linearIndex(coords)]; }
+    }
 
     private void RegisterSlot((Vector3Int, GameObject) input)
     {
@@ -21,16 +29,25 @@ public class PanelManager : MonoBehaviour
         {
             slots.Add(slot);
             slot.manager = this;
+            slot.coords = coords;
         }
     }
 
-    private void Start()
+    private int linearIndex(Vector3Int coords)
+    {
+        return coords.x + coords.y * duplicator.size.x
+            + coords.z * duplicator.size.x * duplicator.size.y;
+    }
+
+    private void Awake()
     {
         if (generateOnAwake)
         {
             Erase();
             Generate();
         }
+
+        slotMap = slots.ToDictionary(slot => linearIndex(slot.coords));
 
         foreach (var slot in slots)
         {
@@ -69,14 +86,14 @@ public class PanelManager : MonoBehaviour
         slots.Clear();
     }
 
-    [ContextMenu("Erase")]
+    [ContextMenu("! Erase")]
     private void ManualErase()
     {
         generateOnAwake = true;
         EraseImmediate();
     }
 
-    [ContextMenu("Erase and Regenerate")]
+    [ContextMenu("! Erase and Regenerate")]
     private void ManualRegenerate()
     {
         generateOnAwake = false;

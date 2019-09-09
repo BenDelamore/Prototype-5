@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class RandomPanel : MonoBehaviour
 {
+    public PanelKindMap kindMap;
+
     private GameObject panel_;
     private GameObject panel
     {
@@ -15,7 +17,7 @@ public class RandomPanel : MonoBehaviour
         }
     }
 
-    public void Begin()
+    private void Start()
     {
         StartCoroutine(PanelChanger());
     }
@@ -25,7 +27,7 @@ public class RandomPanel : MonoBehaviour
         bool nextSafe = true;
         while (true)
         {
-            var kindMap = FindObjectOfType<PanelKindMap>();
+            if (!kindMap) { kindMap = FindObjectOfType<PanelKindMap>(); }
             var kind = nextSafe ? kindMap.RandomSafeKind() : kindMap.RandomKind();
             nextSafe = !nextSafe;
             panel = Instantiate(kind.prefab, transform, false);

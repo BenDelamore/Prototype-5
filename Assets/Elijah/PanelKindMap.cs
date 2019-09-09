@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+// Collection of PanelKind objects.
 public class PanelKindMap : MonoBehaviour
 {
     public Transform kindsParent;
