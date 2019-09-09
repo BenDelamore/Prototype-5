@@ -3,39 +3,101 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+// 3D array of spawned panel slots.
 public class PanelManager : MonoBehaviour
 {
     public PanelDuplicator duplicator;
-    public Transform kindsParent;
+    public bool generateOnAwake = true;
 
-    private PanelKind[] kinds;
-    private PanelKind[] safeKinds;
+    [Header("Generated")]
+    [SerializeField]
     private List<PanelSlot> slots = new List<PanelSlot>();
 
-    public PanelKind RandomKind() { return kinds[Random.Range(0, kinds.Length)]; }
-    public PanelKind RandomSafeKind() { return safeKinds[Random.Range(0, safeKinds.Length)]; }
+    private Dictionary<int, PanelSlot> slotMap;
 
-    private void GatherKinds()
+    public PanelSlot this[Vector3Int coords]
     {
-        kinds = kindsParent.GetComponentsInChildren<PanelKind>();
-        Debug.Assert(kinds.Length > 0);
-        safeKinds = kinds.Where(k => k.isSafe).ToArray();
-        Debug.Assert(safeKinds.Length > 0);
+        get { return slotMap[linearIndex(coords)]; }
     }
 
-    private void Process((Vector3Int, GameObject) input)
+    private void RegisterSlot((Vector3Int, GameObject) input)
     {
         var (coords, go) = input;
         var slot = go.GetComponent<PanelSlot>();
-        slots.Add(slot);
-        slot.Begin(this);
+        Debug.Assert(slot);
+        if (slot)
+        {
+            slots.Add(slot);
+            slot.manager = this;
+            slot.coords = coords;
+        }
     }
 
-    private void Start()
+    private int linearIndex(Vector3Int coords)
     {
-        GatherKinds();
+        return coords.x + coords.y * duplicator.size.x
+            + coords.z * duplicator.size.x * duplicator.size.y;
+    }
 
-        duplicator.Result += Process;
-        duplicator.Process();
+    private void Awake()
+    {
+        if (generateOnAwake)
+        {
+            Erase();
+            Generate();
+        }
+
+        slotMap = slots.ToDictionary(slot => linearIndex(slot.coords));
+
+        foreach (var slot in slots)
+        {
+            slot.BroadcastMessage("Begin", SendMessageOptions.DontRequireReceiver);
+        }
+    }
+
+    private void Generate()
+    {
+        duplicator.Result += RegisterSlot;
+        try
+        {
+            duplicator.Process();
+        }
+        finally
+        {
+            duplicator.Result -= RegisterSlot;
+        }
+    }
+
+    private void Erase()
+    {
+        foreach (var slot in slots)
+        {
+            Destroy(slot.gameObject);
+        }
+        slots.Clear();
+    }
+
+    private void EraseImmediate()
+    {
+        foreach (var slot in slots)
+        {
+            DestroyImmediate(slot.gameObject);
+        }
+        slots.Clear();
+    }
+
+    [ContextMenu("! Erase")]
+    private void ManualErase()
+    {
+        generateOnAwake = true;
+        EraseImmediate();
+    }
+
+    [ContextMenu("! Erase and Regenerate")]
+    private void ManualRegenerate()
+    {
+        generateOnAwake = false;
+        EraseImmediate();
+        Generate();
     }
 }
