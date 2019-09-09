@@ -100,4 +100,13 @@ public class PanelManager : MonoBehaviour
         EraseImmediate();
         Generate();
     }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        foreach (var slot in slots)
+        {
+            Gizmos.DrawSphere(slot.transform.position, 0.1f);
+        }
+    }
 }

@@ -8,17 +8,11 @@ public class ExtendingPanel : MonoBehaviour
     public Transform posExtended;
     public Transform posRetracted;
     public Transform movingObject;
-    public float extensionLength = 3;
     public float durationExtend = 2;
     public float durationStay = 2;
     public float durationRetract = 2;
 
     private void Start()
-    {
-        Play();
-    }
-
-    public void Play()
     {
         var rb = GetComponent<Rigidbody>();
         var seq = DOTween.Sequence();
