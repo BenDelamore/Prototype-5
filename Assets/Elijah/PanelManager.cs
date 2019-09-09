@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PanelManager : MonoBehaviour
 {
-    public PanelDuplicator duplicator;
-
-    public void Process((Vector3Int coords, GameObject go))
+    public void Process((Vector3Int, GameObject) data)
     {
 
     }
