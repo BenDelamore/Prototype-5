@@ -24,6 +24,7 @@ public class PanelDuplicator : MonoBehaviour
                     go.name = prefab.name + " at coords " + coords;
                     go.transform.localPosition = Vector3.Scale(coords, offset);
                     go.transform.localRotation = Quaternion.identity;
+                    Result((coords, go));
                 }
             }
         }

@@ -4,13 +4,35 @@ using UnityEngine;
 
 public class PanelSlot : MonoBehaviour
 {
-    private void Start()
+    private PanelManager manager;
+
+    private GameObject panel_;
+    private GameObject panel
     {
-        StartCoroutine(Wow());
+        get { return panel_; }
+        set {
+            if (panel_) { Destroy(panel_); }
+            panel_ = value;
+        }
     }
 
-    IEnumerator Wow()
+    public void Begin(PanelManager manager)
     {
-        yield return new WaitForSeconds(2);
+        this.manager = manager;
+        StartCoroutine(PanelChanger());
+    }
+
+    private IEnumerator PanelChanger()
+    {
+        bool nextSafe = true;
+        while (true)
+        {
+            var kind = nextSafe ? manager.RandomSafeKind() : manager.RandomKind();
+            nextSafe = !nextSafe;
+            panel = Instantiate(kind.prefab, transform, false);
+            panel.transform.localPosition = Vector3.zero;
+            panel.transform.localRotation = Quaternion.identity;
+            yield return new WaitForSeconds(kind.duration);
+        }
     }
 }
