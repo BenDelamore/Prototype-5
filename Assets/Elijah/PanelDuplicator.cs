@@ -10,7 +10,7 @@ public class PanelDuplicator : MonoBehaviour
     // number of columns, rows, and floors.
     public Vector3Int size = new Vector3Int(10, 1, 10);
 
-    public Vector3 offset = new Vector3(defaultMinorLength, 0, hexagonMajorFromMinor(defaultMinorLength));
+    public Vector3 offset = new Vector3(defaultMinorLength, 0, defaultMinorLength / hexagonMinorFromMajor);
     
     public Vector3 displacementEvenZ = new Vector3(defaultMinorLength / 2, 0, 0);
 
@@ -21,11 +21,7 @@ public class PanelDuplicator : MonoBehaviour
 
 
     public const float defaultMinorLength = 2;
-    public static float hexagonMajorFromMinor(float minorAxisLength)
-    {
-        return minorAxisLength * 1.15470053838f;
-        //return minorAxisLength * 2.0f / Mathf.Sqrt(3.0f);
-    }
+    public static float hexagonMinorFromMajor = 1.15470053838f;
 
 
 
