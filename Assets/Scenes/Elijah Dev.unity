@@ -152,7 +152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab: {fileID: 1014179618799407589, guid: 8ca88716215fe174189baf395ff662fa, type: 3}
   size: {x: 10, y: 1, z: 10}
-  offset: {x: 2, y: 2, z: 2}
+  offset: {x: 2, y: 0, z: 1.7320508}
+  displacementEvenZ: {x: 1, y: 0, z: 0}
 --- !u!4 &205164670
 Transform:
   m_ObjectHideFlags: 0
