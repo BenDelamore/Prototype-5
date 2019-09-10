@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 221527025124869050}
   - component: {fileID: 9099526452180203916}
   - component: {fileID: 3275395057723852149}
-  - component: {fileID: 5073781521235454142}
+  - component: {fileID: 7435815147489978324}
   m_Layer: 8
-  m_Name: heckRockA
+  m_Name: hexRockA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &5073781521235454142
-CapsuleCollider:
+--- !u!64 &7435815147489978324
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.4920384
-  m_Height: 1.5111179
-  m_Direction: 1
-  m_Center: {x: 0.005482316, y: 0.7549076, z: -0.0027790368}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 1191101992854942984, guid: fc8db387701c8af41a2de258a4b5f4d2, type: 3}
