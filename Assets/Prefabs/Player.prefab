@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 9173764604978279258}
   m_Layer: 9
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +89,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 250
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -290,7 +290,7 @@ MonoBehaviour:
   walkSpeed: 7
   sprintSpeed: 12
   moveSmoothing: 0
-  jumpForce: 1.5
+  jumpForce: 2
   coyoteTime: 0.1
   groundedBuffer: 0.1
   canQueueJump: 1
@@ -314,6 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpMax: 400
   hpCurrent: 400
+  damageITime: 0
 --- !u!114 &1364812682797578764
 MonoBehaviour:
   m_ObjectHideFlags: 0
