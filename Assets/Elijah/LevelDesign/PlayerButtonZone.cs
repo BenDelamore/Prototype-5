@@ -8,11 +8,17 @@ public class PlayerButtonZone : MonoBehaviour
     public event Action onPressed;
     public event Action onReleased;
 
+    private List<Collider> colliders = new List<Collider>();
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            onPressed?.Invoke();
+            bool invoke = colliders.Count == 0;
+            colliders.Add(other);
+            if (invoke) {
+                onPressed?.Invoke();
+            }
         }
     }
 
@@ -20,7 +26,10 @@ public class PlayerButtonZone : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            onReleased?.Invoke();
+            if (colliders.Remove(other)
+                && colliders.Count == 0) {
+                onReleased?.Invoke();
+            }
         }
     }
 }
