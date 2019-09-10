@@ -14,6 +14,11 @@ public class ExtendingObject : MonoBehaviour
     public Transform posRetracted;
     public float durationRetract = 2;
 
+    private void Start()
+    {
+        rb.position = posRetracted.position;
+    }
+
     public void Extend()
     {
         rb.DOKill(true);
@@ -24,5 +29,13 @@ public class ExtendingObject : MonoBehaviour
     {
         rb.DOKill(true);
         rb.DOMove(posRetracted.position, durationRetract);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(posExtended?.position ?? transform.position, 0.1f);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawSphere(posRetracted?.position ?? transform.position, 0.1f);
     }
 }

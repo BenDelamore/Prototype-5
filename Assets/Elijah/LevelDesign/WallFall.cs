@@ -8,14 +8,12 @@ public class WallFall : MonoBehaviour
     public float force = 1000;
     public float radius = 100;
 
-    private void Start()
+    public void Explode()
     {
         foreach (var rb in rbs)
         {
             rb.isKinematic = false;
             rb.AddExplosionForce(force, transform.position, radius);
         }
-
-        Destroy(gameObject);
     }
 }
