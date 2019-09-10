@@ -27,13 +27,16 @@ public class PlayerStats : MonoBehaviour
         if (damageTimer <= 0)
         {
             hpCurrent -= amount;
+
+            // Camera Shake
+            Camera.main.transform.DOKill(true);
+            Camera.main.transform.DOPunchRotation(new Vector3(-8f, 0.1f, -4.0f), 0.2f, 2, 1f);
+            Camera.main.transform.DOPunchPosition(new Vector3(-0.05f, 0.05f, -0.1f), 1f, 2, 0.5f);
+
             damageTimer = damageITime;
         }
 
 
-        // Camera Shake
-        Camera.main.transform.DOKill(true);
-        Camera.main.transform.DOPunchRotation(new Vector3(-4f, 0.1f, -1.0f), 0.2f, 2, 1f);
-        Camera.main.transform.DOPunchPosition(new Vector3(-0.05f, 0.05f, -0.1f), 1f, 2, 0.5f);
+
     }
 }
