@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2057858963691729720}
   - component: {fileID: 7049819432125581582}
   - component: {fileID: 3668590946137028087}
-  - component: {fileID: -3831867486719202018}
-  m_Layer: 0
+  - component: {fileID: 7755142641491810234}
+  m_Layer: 8
   m_Name: hexRockB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,8 +78,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!136 &-3831867486719202018
-CapsuleCollider:
+--- !u!64 &7755142641491810234
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -88,7 +88,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.4970327
-  m_Height: 1.5256057
-  m_Direction: 1
-  m_Center: {x: 0.016089633, y: 0.7498076, z: 0.0022470653}
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 6500413975668349682, guid: f79bf2c4a36aeee46a664a56566ad066, type: 3}

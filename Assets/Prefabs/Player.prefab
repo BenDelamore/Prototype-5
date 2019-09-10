@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 9173764604978279258}
   m_Layer: 9
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,7 +89,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 250
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 9173764605368113323}
   - component: {fileID: 4825438019144144775}
   - component: {fileID: 1364812682797578764}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -251,11 +251,11 @@ Rigidbody:
   m_GameObject: {fileID: 9173764605368113324}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 112
   m_CollisionDetection: 2
 --- !u!136 &9173764605368113322
@@ -265,7 +265,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9173764605368113324}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: f1bf40381d852e84daf72cd7cf0fb500, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -290,16 +290,16 @@ MonoBehaviour:
   walkSpeed: 7
   sprintSpeed: 12
   moveSmoothing: 0
-  jumpForce: 1.5
+  jumpForce: 2
   coyoteTime: 0.1
   groundedBuffer: 0.1
   canQueueJump: 1
-  interpolation: 1
+  interpolation: 2
   playerCamera: {fileID: 9173764604978279259}
   groundCheck: {fileID: 9173764605676976947}
   ground:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 257
 --- !u!114 &4825438019144144775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,6 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpMax: 400
   hpCurrent: 400
+  damageITime: 0
 --- !u!114 &1364812682797578764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9173764605676976947}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
