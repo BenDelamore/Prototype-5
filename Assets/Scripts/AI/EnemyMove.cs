@@ -19,6 +19,7 @@ public class EnemyMove : MonoBehaviour {
     [SerializeField] private float timeBetweenAttacks = 1.0f;
     public float delayTimer;
     public float attackTimer;
+    private float attackAniPlayed;
 
     private EnemySense sense;
     private PlayerStats player;
@@ -61,15 +62,20 @@ public class EnemyMove : MonoBehaviour {
         if (doLook && distance < 2.5f && !isAttacking && delayTimer <= 0)
         {
             Attack();
+            isAttacking = true;
             delayTimer = timeBetweenAttacks;
         }
 
         if (isAttacking)
         {
             attackTimer += Time.deltaTime;
-            if (attackTimer > attackStartup)
+            if (attackTimer > attackStartup && sense.playerDetected && distance <= 2.5f)
             {
                 doDamage = true;
+            }
+            else
+            {
+                doDamage = false;
             }
             if (attackTimer > attackStartup + attackLength)
             {
@@ -104,7 +110,7 @@ public class EnemyMove : MonoBehaviour {
 
     public void Attack()
     {
-        isAttacking = true;
+
         player.Damage(10);
         //ani.SetTrigger("Attack");
     }
