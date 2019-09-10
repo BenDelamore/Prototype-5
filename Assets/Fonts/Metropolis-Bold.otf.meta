@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 78cf5f4aae431da47b064533dbfec334
+guid: 0b5f3f39bd2f66c4cb45abdb16a293d6
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: DIN
+  fontName: Metropolis
   fontNames:
-  - DIN
+  - Metropolis
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
