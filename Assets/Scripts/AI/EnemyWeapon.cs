@@ -19,13 +19,23 @@ public class EnemyWeapon : MonoBehaviour
         
     }
 
-    private void OnCollisionStay(Collision collision)
-    {
-        /*
-        if (collision.gameobject.tag = "Player")
-        {
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+           
         }
-        */
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            player.Damage(10);
+            Debug.Log("Hit");
+        }
     }
 }

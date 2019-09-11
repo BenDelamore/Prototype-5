@@ -17,10 +17,12 @@ public class EnemyMove : MonoBehaviour {
     [SerializeField] private float attackStartup = 0.2f;
     [SerializeField] private float attackLength = 0.2f;
     [SerializeField] private float timeBetweenAttacks = 1.0f;
-    public float delayTimer;
-    public float attackTimer;
+    private float delayTimer;
+    private float attackTimer;
     private float attackAniPlayed;
 
+    public GameObject weaponObject;
+    private EnemyWeapon weapon;
     private EnemySense sense;
     private PlayerStats player;
     private Rigidbody rb;
@@ -31,11 +33,13 @@ public class EnemyMove : MonoBehaviour {
         sense = GetComponent<EnemySense>();
         rb = GetComponent<Rigidbody>();
         delayTimer = timeBetweenAttacks;
+        weapon = weaponObject.GetComponent<EnemyWeapon>();
+        ani = transform.Find("Crystal Enemy").GetComponent<Animator>();
 	}
 	
 	void Update () {
 
-        distance = Vector3.Distance(transform.position, sense.lastPlayerLocation);
+        distance = Vector3.Distance(transform.position, sense.currentPlayerLocation);
         rb.velocity *= 0;
 
         // Act based on detection level
@@ -58,8 +62,9 @@ public class EnemyMove : MonoBehaviour {
 
         delayTimer = Mathf.MoveTowards(delayTimer, 0, Time.deltaTime);
 
+
         // Attacking logic
-        if (doLook && distance < 2.5f && !isAttacking && delayTimer <= 0)
+        if (doLook && (distance < 3.5f && delayTimer <= 0f))
         {
             Attack();
             isAttacking = true;
@@ -77,6 +82,7 @@ public class EnemyMove : MonoBehaviour {
             {
                 doDamage = false;
             }
+
             if (attackTimer > attackStartup + attackLength)
             {
                 isAttacking = false;
@@ -84,6 +90,8 @@ public class EnemyMove : MonoBehaviour {
                 attackTimer = 0;
             }
         }
+        // Update enemy weapon collider
+        weaponObject.SetActive(doDamage);
 
         // Chase player
         Vector3 moveDirection = sense.lastPlayerLocation - transform.position;
@@ -111,7 +119,7 @@ public class EnemyMove : MonoBehaviour {
     public void Attack()
     {
 
-        player.Damage(10);
-        //ani.SetTrigger("Attack");
+        //player.Damage(10);
+        ani.SetTrigger("IsAttacking");
     }
 }

@@ -2044,11 +2044,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 2265252436871672884, guid: 854822ace28fe2f49948b8d8f3943f5a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2265252436871672886, guid: 854822ace28fe2f49948b8d8f3943f5a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2109,19 +2104,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 9173764605840491520}
-    - target: {fileID: 2265252436871672888, guid: 854822ace28fe2f49948b8d8f3943f5a,
-        type: 3}
-      propertyPath: timeBetweenAttacks
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1595890006, guid: 854822ace28fe2f49948b8d8f3943f5a, type: 3}
-      propertyPath: m_Size.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1957900549, guid: 854822ace28fe2f49948b8d8f3943f5a, type: 3}
-      propertyPath: m_Size.z
-      value: 3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854822ace28fe2f49948b8d8f3943f5a, type: 3}
 --- !u!4 &5006512736612892501 stripped
