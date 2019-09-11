@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crystal Blue
+  m_Name: Crystal Green
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: 713b6f870f6510d45a224755f476dc75, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5fac563d63c6ea842953dde496395d3f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -73,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.85800934, g: 0, b: 1, a: 1}
-    - _EmissionColor: {r: 0.21960784, g: 0, b: 2.9960785, a: 1}
+    - _Color: {r: 0.24533153, g: 1, b: 0, a: 1}
+    - _EmissionColor: {r: 3.2444282, g: 14.754423, b: 3.5534213, a: 1}
