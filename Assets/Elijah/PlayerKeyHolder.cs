@@ -11,6 +11,8 @@ public class PlayerKeyHolder : MonoBehaviour
 
     public KeyPickup held;
 
+    public event Action<KeyType> onPickedUp;
+
     public KeyType heldKeyType { get { return held?.type ?? KeyType.None; } }
 
     public bool IsAllowedType(KeyType type) { return allowedTypes.Contains(type); }
@@ -41,6 +43,7 @@ public class PlayerKeyHolder : MonoBehaviour
         if (!pickup)
         {
             held = null;
+            onPickedUp?.Invoke(KeyType.None);
             return;
         }
         held = pickup;
@@ -48,6 +51,7 @@ public class PlayerKeyHolder : MonoBehaviour
         pickup.transform.SetParent(pos, false);
         pickup.transform.localPosition = Vector3.zero;
         pickup.transform.localRotation = Quaternion.identity;
+        onPickedUp?.Invoke(pickup.type);
     }
 
     public void Swap(PlayerKeyHolder other)
