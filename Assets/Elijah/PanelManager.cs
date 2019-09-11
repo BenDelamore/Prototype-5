@@ -24,7 +24,7 @@ public class PanelManager : MonoBehaviour
     {
         var (coords, go) = input;
         var slot = go.GetComponent<PanelSlot>();
-        Debug.Assert(slot);
+        Debug.Assert(slot, "Panel Duplicator's prefab did not have a PanelSlot at its root.", this);
         if (slot)
         {
             slots.Add(slot);
