@@ -28,4 +28,12 @@ public class EnemyWeapon : MonoBehaviour
         }
         */
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collision.gameObject.GetComponent<PlayerStats>().Damage(10);
+        }
+    }
 }

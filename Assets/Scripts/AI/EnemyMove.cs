@@ -21,6 +21,7 @@ public class EnemyMove : MonoBehaviour {
     public float attackTimer;
     private float attackAniPlayed;
 
+    private EnemyWeapon weapon;
     private EnemySense sense;
     private PlayerStats player;
     private Rigidbody rb;
@@ -58,8 +59,9 @@ public class EnemyMove : MonoBehaviour {
 
         delayTimer = Mathf.MoveTowards(delayTimer, 0, Time.deltaTime);
 
+
         // Attacking logic
-        if (doLook && distance < 2.5f && !isAttacking && delayTimer <= 0)
+        if (doLook && distance < 2.5f && delayTimer <= 0f)
         {
             Attack();
             isAttacking = true;
@@ -77,6 +79,7 @@ public class EnemyMove : MonoBehaviour {
             {
                 doDamage = false;
             }
+
             if (attackTimer > attackStartup + attackLength)
             {
                 isAttacking = false;
@@ -84,6 +87,7 @@ public class EnemyMove : MonoBehaviour {
                 attackTimer = 0;
             }
         }
+
 
         // Chase player
         Vector3 moveDirection = sense.lastPlayerLocation - transform.position;
