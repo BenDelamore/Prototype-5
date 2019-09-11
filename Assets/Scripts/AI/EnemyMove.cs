@@ -34,6 +34,7 @@ public class EnemyMove : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         delayTimer = timeBetweenAttacks;
         weapon = weaponObject.GetComponent<EnemyWeapon>();
+        ani = transform.Find("Crystal Enemy").GetComponent<Animator>();
 	}
 	
 	void Update () {
@@ -63,7 +64,7 @@ public class EnemyMove : MonoBehaviour {
 
 
         // Attacking logic
-        if (doLook && (distance < 2.5f && delayTimer <= 0f))
+        if (doLook && (distance < 3.5f && delayTimer <= 0f))
         {
             Attack();
             isAttacking = true;
@@ -119,6 +120,6 @@ public class EnemyMove : MonoBehaviour {
     {
 
         //player.Damage(10);
-        //ani.SetTrigger("Attack");
+        ani.SetTrigger("IsAttacking");
     }
 }
