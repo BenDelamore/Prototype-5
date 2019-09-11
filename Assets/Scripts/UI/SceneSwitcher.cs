@@ -60,7 +60,17 @@ public class SceneSwitcher : MonoBehaviour {
             SceneManager.LoadScene(targetScene);
         }
 
-	}
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            SceneSwitch("Ryan - Dev");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            SceneSwitch("Ben-Dev");
+        }
+
+    }
 
     public void SceneSwitch(string scene)
     {
