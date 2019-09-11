@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crystal Blue
+  m_Name: Crystal Purple
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
@@ -73,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.24371429, g: 0.41963956, b: 0.85300004, a: 1}
-    - _EmissionColor: {r: 0.60523677, g: 1.5467162, b: 3.8331661, a: 1}
+    - _Color: {r: 1, g: 0.28627452, b: 0.64123726, a: 1}
+    - _EmissionColor: {r: 2.1560001, g: 0.4829441, b: 1.0894272, a: 1}

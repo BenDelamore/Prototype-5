@@ -87,7 +87,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9101041207806488893}
   m_Layer: 0
-  m_Name: Gem (2)
+  m_Name: Gem Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

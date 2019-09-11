@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3498243247138094811}
   - component: {fileID: 3227012859552334704}
+  - component: {fileID: 7509749456216515294}
   m_Layer: 0
   m_Name: RandomPanel
   m_TagString: Untagged
@@ -44,3 +45,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kindMap: {fileID: 0}
+--- !u!114 &7509749456216515294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1014179618799407589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70960d25dea1cd241a75d68db8820044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 0}
+  coords: {x: 0, y: 0, z: 0}
