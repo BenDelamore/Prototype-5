@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1935518063621723167}
   - component: {fileID: 1935518063621723164}
   - component: {fileID: 1935518063621723136}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Lava Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
