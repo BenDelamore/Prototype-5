@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 881572850968063605}
   - component: {fileID: 7111740267572544271}
   m_Layer: 0
-  m_Name: Idle
+  m_Name: Crystal Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -326,7 +326,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4206538037141871718}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: efc4edfed29efe349963ff8c6341f6f0, type: 3}
+  m_Avatar: {fileID: 9000000, guid: e3262dddfd3e0774fbdda406ddf68933, type: 3}
   m_Controller: {fileID: 9100000, guid: c782d6bfe8d554247a2792e76b08f732, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
