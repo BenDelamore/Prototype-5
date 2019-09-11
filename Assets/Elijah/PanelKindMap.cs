@@ -16,9 +16,9 @@ public class PanelKindMap : MonoBehaviour
     private void GatherKinds()
     {
         kinds = kindsParent.GetComponentsInChildren<PanelKind>();
-        Debug.Assert(kinds.Length > 0);
+        Debug.Assert(kinds.Length > 0, "PanelKindMap has no kinds.", this);
         safeKinds = kinds.Where(k => k.isSafe).ToArray();
-        Debug.Assert(safeKinds.Length > 0);
+        Debug.Assert(safeKinds.Length > 0, "PanelKindMap has no safe kinds.", this);
     }
 
     private void Awake()
