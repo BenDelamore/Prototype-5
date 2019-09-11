@@ -212,11 +212,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -286,6 +281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -1439,11 +1439,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139301910}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1514,6 +1509,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
 --- !u!4 &47055563 stripped
@@ -1529,11 +1529,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1603,6 +1598,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.0944113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -2489,11 +2489,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2563,6 +2558,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -2683,11 +2683,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2757,6 +2752,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.1762191
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -2868,11 +2868,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2942,6 +2937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -3506,11 +3506,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3576,6 +3571,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (9)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1 &122008225
@@ -3634,11 +3634,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3708,6 +3703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -4330,11 +4330,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4404,6 +4399,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -5203,11 +5203,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1687499512}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5278,6 +5273,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2897004
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!4 &175819504 stripped
@@ -5293,11 +5293,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 946197908}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5367,6 +5362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -5672,11 +5672,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5746,6 +5741,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -6259,11 +6259,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139301910}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6333,6 +6328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -7689,11 +7689,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7763,6 +7758,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -8240,11 +8240,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8314,6 +8309,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -8420,11 +8420,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1432749763}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8494,6 +8489,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -9666,11 +9666,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 114829019}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9740,6 +9735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -10834,11 +10834,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10908,6 +10903,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -11002,11 +11002,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 946197908}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11076,6 +11071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -11898,11 +11898,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11972,6 +11967,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -12294,11 +12294,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2067132175}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_RootOrder
@@ -12318,6 +12313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 7.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -12584,11 +12584,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12658,6 +12653,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -12769,11 +12769,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 946197908}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12843,6 +12838,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -12937,11 +12937,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13011,6 +13006,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9120102
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -13105,11 +13105,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1608280443}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13179,6 +13174,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -13624,11 +13624,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13699,6 +13694,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.1762191
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1001 &476492943
@@ -13708,11 +13708,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13782,6 +13777,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5098
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -14586,11 +14586,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879634014}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14660,6 +14655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -15655,6 +15655,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2265252436871672887, guid: 854822ace28fe2f49948b8d8f3943f5a,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2265252436871672884, guid: 854822ace28fe2f49948b8d8f3943f5a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -15664,11 +15669,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2265252436871672887, guid: 854822ace28fe2f49948b8d8f3943f5a,
-        type: 3}
-      propertyPath: player
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2681690104432000823, guid: 854822ace28fe2f49948b8d8f3943f5a,
         type: 3}
@@ -15698,11 +15698,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 946197908}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15772,6 +15767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -15866,11 +15866,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15940,6 +15935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -16845,11 +16845,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1608280443}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16919,6 +16914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -17175,11 +17175,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17249,6 +17244,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.0944113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -20107,11 +20107,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20181,6 +20176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9120102
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -20669,11 +20669,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20738,6 +20733,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -20933,11 +20933,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21007,6 +21002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -23059,11 +23059,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23133,6 +23128,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4099301
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -23245,11 +23245,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1945369130}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_RootOrder
@@ -23284,6 +23279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4508
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -23563,11 +23563,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139301910}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23637,6 +23632,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -24433,11 +24433,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1432749763}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24507,6 +24502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -24688,11 +24688,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -24762,6 +24757,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -24971,11 +24971,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1432749763}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25045,6 +25040,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -25331,11 +25331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25405,6 +25400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -25684,11 +25684,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25758,6 +25753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.91200984
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -26305,11 +26305,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26380,6 +26375,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.5098
       objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (3)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
 --- !u!4 &889334428 stripped
@@ -26395,11 +26395,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1936056463}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_RootOrder
@@ -26434,6 +26429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4508
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -27128,11 +27128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879634014}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27202,6 +27197,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -27483,11 +27483,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1608280443}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -27557,6 +27552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -28364,11 +28364,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28438,6 +28433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -29139,11 +29139,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 114829019}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29213,6 +29208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -29608,11 +29608,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29682,6 +29677,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.6327538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -29857,11 +29857,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139301910}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29931,6 +29926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -30218,11 +30218,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1945369130}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_RootOrder
@@ -30257,6 +30252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4508
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -30966,11 +30966,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31040,6 +31035,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -31895,11 +31895,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31964,6 +31959,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -32240,11 +32240,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1705904771}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -32264,6 +32259,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 9.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -32450,11 +32450,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1608280443}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32524,6 +32519,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -32619,11 +32619,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -32693,6 +32688,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -33656,11 +33656,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1687499512}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33730,6 +33725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -34189,11 +34189,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1687499512}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34263,6 +34258,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -35228,11 +35228,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (7)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35302,6 +35297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -35588,11 +35588,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1705904771}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_RootOrder
@@ -35643,6 +35638,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 165.00002
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1001 &1153730597
@@ -35652,11 +35652,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1608280443}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35726,6 +35721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -36275,11 +36275,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36349,6 +36344,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -36443,11 +36443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36502,6 +36497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -36793,11 +36793,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 114829019}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -36867,6 +36862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -37078,11 +37078,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 946197908}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37152,6 +37147,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -38594,11 +38594,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879634014}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38668,6 +38663,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -39359,11 +39359,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39433,6 +39428,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -39851,11 +39851,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -39925,6 +39920,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -40024,11 +40024,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (13)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40099,6 +40094,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.6666675
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (13)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1001 &1285570993
@@ -40108,11 +40108,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40182,6 +40177,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -40276,11 +40276,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40351,6 +40346,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2897004
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1001 &1288756261
@@ -40360,11 +40360,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40434,6 +40429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.91200984
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -40927,11 +40927,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2054866899}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -40951,6 +40946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -3.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -41198,11 +41198,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41272,6 +41267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.6327538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -41372,11 +41372,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879634014}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41446,6 +41441,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -42115,11 +42115,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42189,6 +42184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.0944113
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -42414,11 +42414,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6734644880529961600}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -42438,6 +42433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 6.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -42740,11 +42740,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42814,6 +42809,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.91200984
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -42921,11 +42921,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (11)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42995,6 +42990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -43478,11 +43478,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Central_pagoda
       objectReference: {fileID: 0}
-    - target: {fileID: -5540499315521155543, guid: c1b29e15b806ad94c9a2758016d2a57d,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: af342ca36ace68148826374fc66e4556, type: 2}
     - target: {fileID: -4216859302048453862, guid: c1b29e15b806ad94c9a2758016d2a57d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43553,6 +43548,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -5540499315521155543, guid: c1b29e15b806ad94c9a2758016d2a57d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af342ca36ace68148826374fc66e4556, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1b29e15b806ad94c9a2758016d2a57d, type: 3}
 --- !u!1001 &1396358819
@@ -44057,11 +44057,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44131,6 +44126,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -44756,11 +44756,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1705904771}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -44780,6 +44775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -44874,11 +44874,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 946197908}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44949,6 +44944,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5058796
       objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
 --- !u!4 &1443533102 stripped
@@ -44970,11 +44970,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45044,6 +45039,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -45714,11 +45714,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45788,6 +45783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -46396,11 +46396,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139301910}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46470,6 +46465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -46787,11 +46787,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46846,6 +46841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -47422,11 +47422,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2139301910}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47496,6 +47491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -47724,11 +47724,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1705904771}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -47749,6 +47744,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 8.14
       objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
 --- !u!1001 &1545323314
@@ -47758,11 +47758,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -47827,6 +47822,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -48147,11 +48147,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879634014}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48222,6 +48217,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5058796
       objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
 --- !u!1001 &1554011329
@@ -48231,11 +48231,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48305,6 +48300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -48515,11 +48515,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1608280443}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48590,6 +48585,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
 --- !u!1001 &1562312799
@@ -48599,11 +48599,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 408197220}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48674,6 +48669,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.91200984
       objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
 --- !u!1001 &1562496136
@@ -48683,11 +48683,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48758,6 +48753,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.2897004
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (6)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1001 &1565981793
@@ -48767,11 +48767,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -48841,6 +48836,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -49400,11 +49400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49474,6 +49469,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666671
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -49568,11 +49568,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1879634014}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49642,6 +49637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -49822,11 +49822,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -49881,6 +49876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -50730,11 +50730,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1432749763}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -50804,6 +50799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -51078,16 +51078,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51143,6 +51133,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
 --- !u!1001 &1623865391
@@ -51152,11 +51152,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (12)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51226,6 +51221,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -51954,11 +51954,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52013,6 +52008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -52130,11 +52130,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1687499512}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52204,6 +52199,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -52627,11 +52627,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52701,6 +52696,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.2897004
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -52896,11 +52896,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1687499512}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -52970,6 +52965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -54044,11 +54044,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54118,6 +54113,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -54804,11 +54804,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54878,6 +54873,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.6327538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -56331,11 +56331,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56405,6 +56400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -56540,11 +56540,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1705904771}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -56564,6 +56559,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 10.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -57013,11 +57013,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1687499512}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57087,6 +57082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -57228,11 +57228,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 185818653}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57302,6 +57297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -57497,11 +57497,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57572,6 +57567,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5058796
       objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
 --- !u!1001 &1846255930
@@ -57581,11 +57581,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1432749763}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57655,6 +57650,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -57766,11 +57766,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57841,6 +57836,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
 --- !u!4 &1850219138 stripped
@@ -57874,11 +57874,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -57948,6 +57943,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -58763,11 +58763,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -58837,6 +58832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.5098
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -59378,11 +59378,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1936056463}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_RootOrder
@@ -59417,6 +59412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4508
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -60127,11 +60127,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60201,6 +60196,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -60999,11 +60999,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 114829019}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61073,6 +61068,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -61576,11 +61576,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61651,6 +61646,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2.9424562
       objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
 --- !u!4 &2008109042 stripped
@@ -61666,11 +61666,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (9)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61740,6 +61735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -61966,11 +61966,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1432749763}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62041,6 +62036,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.5058796
       objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (4)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
 --- !u!1 &2026945153
@@ -62098,11 +62098,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 648584089}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_RootOrder
@@ -62122,6 +62117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -2.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -62296,11 +62296,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1705904771}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (4)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_RootOrder
@@ -62335,6 +62330,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.4529
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -63198,11 +63198,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1628931541}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (10)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63272,6 +63267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -64459,11 +64459,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1400287781}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2 (6)
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64533,6 +64528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.6666675
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2 (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -64939,11 +64939,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 753347905}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1 (5)
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65013,6 +65008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.5058796
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1 (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
@@ -65321,11 +65321,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1261943076}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2 (8)
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -65395,6 +65390,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2 (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -66389,11 +66389,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Small_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5141186218092687097, guid: 422446c896bc28941bc07b8793fff673,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66448,6 +66443,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8143194739657317610, guid: 422446c896bc28941bc07b8793fff673,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Small_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 422446c896bc28941bc07b8793fff673, type: 3}
@@ -66527,11 +66527,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66586,6 +66581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
@@ -66658,6 +66658,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7ef8b5e6cef6384c97e2dd8efb8f455, type: 3}
+--- !u!1001 &3308629017296900249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8226989317541203019, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_Name
+      value: RandomExtendingPillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -35.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -40.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000014901161
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226989317541203017, guid: ac2a066e5894d0947a96aa5461f97ae1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ac2a066e5894d0947a96aa5461f97ae1, type: 3}
 --- !u!1001 &3311088643529922764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66920,11 +66989,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 709107610}
     m_Modifications:
-    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
-        type: 3}
-      propertyPath: m_Name
-      value: RockPillar_1
-      objectReference: {fileID: 0}
     - target: {fileID: 2422311350593556011, guid: 0c2bab191a311824fb177bd192ba245d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -66979,6 +67043,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1713231041186004024, guid: 0c2bab191a311824fb177bd192ba245d,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPillar_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
