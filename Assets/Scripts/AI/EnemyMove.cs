@@ -29,7 +29,7 @@ public class EnemyMove : MonoBehaviour {
     private float distance;
     private Vector3 posInitial;
     private float displacement;
-    private bool hasReturned = false;
+    //private bool hasReturned = false;
     private float timeAtBase;
 
     void Start () {
@@ -50,31 +50,41 @@ public class EnemyMove : MonoBehaviour {
         rb.velocity *= 0;
 
         // Act based on detection level
-        if (sense.playerDetected && displacement < followRange)
+        if (sense.playerDetected && displacement < followRange && !player.isDead)
         {
-            Chase();
-            doChase = true;
-            doLook = true;
+            if (distance > 0.1f)
+            {
+                Chase();
+                doChase = true;
+                doLook = true;
 
-            if ((sense.playerInSight && distance < 2f))
+                if ((sense.playerInSight && distance < 2f))
+                {
+                    doChase = false;
+                }
+            }
+            else
             {
                 doChase = false;
+                doLook = false;
             }
 
+            GlobalData.CombatMode = true;
         }
-        else if (distance < 0.1f)
+        else // Return to spawnpoint if player is out of range
         {
             doChase = false;
             doLook = false;
-        }
-
-        if (displacement > followRange || !sense.playerDetected)
-        {
-            doChase = false;
-            doLook = false;
-            hasReturned = true;
+            //hasReturned = true;
             ReturnToBase();
             sense.playerDetected = false;
+
+            GlobalData.CombatMode = false;
+        }
+
+        if (player.isDead)
+        {
+            sense.timeInSight = -3.0f;
         }
 
 
@@ -107,11 +117,9 @@ public class EnemyMove : MonoBehaviour {
                 attackTimer = 0;
             }
         }
+
         // Update enemy weapon collider
         weaponObject.SetActive(doDamage);
-
-
-
     }
 
     private void Chase()
@@ -157,8 +165,6 @@ public class EnemyMove : MonoBehaviour {
 
     public void Attack()
     {
-
-        //player.Damage(10);
         ani.SetTrigger("IsAttacking");
     }
 }

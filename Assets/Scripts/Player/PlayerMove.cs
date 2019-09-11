@@ -5,16 +5,21 @@ using DG.Tweening;
 
 public class PlayerMove : MonoBehaviour {
 
+    [Header("Runtime")]
     [SerializeField] private string horizontalInputName;
     [SerializeField] private string verticalInputName;
     [SerializeField] private string jumpInputName;
     [SerializeField] private float walkSpeed;
     [SerializeField] private float sprintSpeed;
-    [SerializeField] private float moveSmoothing;
     [SerializeField] private float jumpForce;
     [SerializeField] private float coyoteTime;
-    [SerializeField] private float groundedBuffer;
+    private float groundedBuffer = 0.1f;
     public bool canQueueJump;
+
+    [SerializeField] private float checkPointSetRate = 30f;
+    private float checkpointTimer;
+    private Vector3 respawnPos;
+    public bool canSetCheckpoint;
 
     private Vector3 moveVector;
     private Vector3 move;
@@ -32,17 +37,40 @@ public class PlayerMove : MonoBehaviour {
     public GameObject playerCamera;
     public Transform groundCheck;
     public LayerMask ground;
+    private PlayerStats stats;
 
     void Awake ()
     {
+        stats = FindObjectOfType<PlayerStats>();
         rb = GetComponent<Rigidbody>();
         coyoteTimeCur = coyoteTime;
+        respawnPos = transform.localPosition;
+        checkpointTimer = checkPointSetRate;
     }
 	
 	void Update ()
     {
         PlayerMovement();
         rb.MovePosition(rb.position + move);
+
+
+        checkpointTimer = Mathf.MoveTowards(checkpointTimer, 0, Time.deltaTime);
+
+        // Set checkpoint if valid
+        if (isGrounded && !GlobalData.CombatMode && !stats.isDead)
+        {
+            canSetCheckpoint = true;
+            //checkpointTimer = checkPointSetRate;
+        }
+        else
+        {
+            canSetCheckpoint = false;
+        }
+
+        if (checkpointTimer <= 0 && canSetCheckpoint)
+        {
+            SetCheckpoint(transform.position);
+        }
     }
 
     private void FixedUpdate()
@@ -96,12 +124,26 @@ public class PlayerMove : MonoBehaviour {
 
         isSprinting = Input.GetKey(KeyCode.LeftShift);
         moveSpeed = isSprinting ? sprintSpeed : walkSpeed;
-        moveSpeedLerp = Mathf.Lerp(moveSpeedLerp, moveSpeed, moveSmoothing * Time.deltaTime);
+        //moveSpeedLerp = Mathf.Lerp(moveSpeedLerp, moveSpeed, moveSmoothing * Time.deltaTime);
 
         Vector3 moveX = hInput * transform.right;
         Vector3 moveZ = vInput * transform.forward;
 
         moveVector = Vector3.ClampMagnitude(moveX + moveZ, 1);
         move = moveVector * moveSpeed * Time.deltaTime;
+    }
+
+    public void Respawn()
+    {
+        transform.position = respawnPos;
+        stats.hpCurrent = stats.hpMax;
+        stats.isDead = false;
+    }
+
+    public void SetCheckpoint(Vector3 pos)
+    {
+        respawnPos = pos;
+        checkpointTimer = checkPointSetRate;
+        Debug.Log("Checkpoint Set");
     }
 }
