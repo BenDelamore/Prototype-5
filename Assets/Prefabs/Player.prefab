@@ -328,8 +328,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pos: {fileID: 8385739277377487114}
-  offset: {x: 0, y: 1, z: 0}
-  heldObjects: []
+  allowedTypes: 0000000001000000020000000300000004000000
+  initialKeyPrefab: {fileID: 0}
+  held: {fileID: 0}
 --- !u!1 &9173764605676976948
 GameObject:
   m_ObjectHideFlags: 0

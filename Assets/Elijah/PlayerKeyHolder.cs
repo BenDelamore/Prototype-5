@@ -1,39 +1,94 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class PlayerKeyHolder : MonoBehaviour
 {
     public Transform pos;
-    public Vector3 offset = Vector3.up * 1.0f;
-    public List<GameObject> heldObjects = new List<GameObject>();
+    public List<KeyType> allowedTypes = new List<KeyType> { KeyType.None, KeyType.Blue, KeyType.Green, KeyType.Purple, KeyType.Red };
+    public KeyPickup initialKeyPrefab;
 
-    public event Action<GameObject> OnAdded;
+    public KeyPickup held;
 
-    public void Add(GameObject itemToHold)
+    public KeyType heldKeyType { get { return held?.type ?? KeyType.None; } }
+
+    public bool IsAllowedType(KeyType type) { return allowedTypes.Contains(type); }
+
+    private void Awake()
     {
-        itemToHold.transform.SetParent(pos, false);
-        itemToHold.transform.localPosition = offset * heldObjects.Count;
-        itemToHold.transform.localRotation = Quaternion.identity;
-        heldObjects.Add(itemToHold);
-        OnAdded?.Invoke(itemToHold);
-    }
-
-    public void Exchange(PlayerKeyHolder from)
-    {
-        foreach (var go in from.heldObjects.ToArray())
+        if (held)
         {
-            from.heldObjects.Remove(go);
-            Add(go);
+            PickItUp(held);
+        }
+        else if (initialKeyPrefab)
+        {
+            if (IsAllowedType(initialKeyPrefab.type))
+            { 
+                var pickup = Instantiate(initialKeyPrefab);
+                PickItUp(pickup);
+                initialKeyPrefab = null;
+            }
+            else
+            {
+                Debug.LogError("initial key prefab's key type is not allowed for this holder", this);
+            }
         }
     }
-    
-    public void DisposeAll()
+
+    private void PickItUp(KeyPickup pickup)
     {
-        foreach (var go in heldObjects)
+        if (!pickup)
         {
-            Destroy(go);
+            held = null;
+            return;
         }
-        heldObjects.Clear();
+        held = pickup;
+        pickup.currentHolder = this;
+        pickup.transform.SetParent(pos, false);
+        pickup.transform.localPosition = Vector3.zero;
+        pickup.transform.localRotation = Quaternion.identity;
     }
+
+    public void Swap(PlayerKeyHolder other)
+    {
+        var a = other.IsAllowedType(this.heldKeyType);
+        var b = this.IsAllowedType(other.heldKeyType);
+        if (a && b)
+        {
+            var pickup = other.held;
+            other.PickItUp(this.held);
+            this.PickItUp(pickup);
+        }
+    }
+
+    //public void Swap(PlayerKeyHolder other)
+    //{
+    //    var a = other.held;
+    //    other.PickItUp(this.held);
+    //    this.PickItUp(a);
+    //}
+
+    //public void Take(PlayerKeyHolder from)
+    //{
+    //    var pickup = from.held;
+    //    if (pickup)
+    //    {
+    //        from.held = null;
+    //        PickItUp(pickup);
+    //    }
+    //}
+
+    //public void TakeIf(PlayerKeyHolder from, IEnumerable<KeyType> allowedTypes)
+    //{
+    //    var kt = from.heldKeyType;
+    //    if (kt.HasValue)
+    //    {
+    //        var type = kt.Value;
+    //        if (allowedTypes.Contains(type))
+    //        {
+    //            Take(from);
+    //        }
+    //    }
+    //}
 }
