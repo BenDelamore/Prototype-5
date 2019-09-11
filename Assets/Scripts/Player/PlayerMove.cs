@@ -16,6 +16,7 @@ public class PlayerMove : MonoBehaviour {
     [SerializeField] private float groundedBuffer;
     public bool canQueueJump;
 
+    private Vector3 respawnPos;
     private Vector3 moveVector;
     private Vector3 move;
     private float moveSpeed;
@@ -37,6 +38,7 @@ public class PlayerMove : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody>();
         coyoteTimeCur = coyoteTime;
+        respawnPos = transform.localPosition;
     }
 	
 	void Update ()
@@ -103,5 +105,12 @@ public class PlayerMove : MonoBehaviour {
 
         moveVector = Vector3.ClampMagnitude(moveX + moveZ, 1);
         move = moveVector * moveSpeed * Time.deltaTime;
+    }
+
+    public void Respawn()
+    {
+        transform.localPosition = respawnPos;
+        var stats = FindObjectOfType<PlayerStats>();
+        stats.hpCurrent = stats.hpMax;
     }
 }

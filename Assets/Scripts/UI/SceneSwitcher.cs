@@ -14,6 +14,7 @@ public class SceneSwitcher : MonoBehaviour {
     public string curScene;
     public bool isFading;
     public bool isSwitching;
+    public bool isRespawning;
     public float fadeTimeCur;
 
     void Awake()
@@ -56,10 +57,17 @@ public class SceneSwitcher : MonoBehaviour {
             isFading = false;
         }
 
-        if (isSwitching && !isFading && targetScene != null)
+        if (isSwitching && !isFading)
         {
-
-            SceneManager.LoadScene(targetScene);
+            if (targetScene == null || isRespawning)
+            {
+                FindObjectOfType<PlayerMove>().Respawn();
+                isRespawning = false;
+            }
+            else
+            {
+                SceneManager.LoadScene(targetScene);
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -78,8 +86,6 @@ public class SceneSwitcher : MonoBehaviour {
     {
         if (!isSwitching)
         {
-            
-            
             Vector4 initialColor = fadeImage.color;
             fadeImage.DOFade(1, fadeTime / 1.5f).SetEase(Ease.InOutSine);
             fadeTimeCur = fadeTime;

@@ -44,7 +44,9 @@ public class PlayerStats : MonoBehaviour
 
         if (hpCurrent <= 0 && !isDead)
         {
-            FindObjectOfType<SceneSwitcher>().SceneSwitch(SceneManager.GetActiveScene().name);
+            var sceneman = FindObjectOfType<SceneSwitcher>();
+            sceneman.isRespawning = true;
+            sceneman.StartFade();
             isDead = true;
         }
 
