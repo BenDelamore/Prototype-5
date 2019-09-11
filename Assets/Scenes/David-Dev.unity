@@ -128,11 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7722857586243595803, guid: c7ef8b5e6cef6384c97e2dd8efb8f455,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Big (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 6734644880413039624, guid: c7ef8b5e6cef6384c97e2dd8efb8f455,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -188,6 +183,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7722857586243595803, guid: c7ef8b5e6cef6384c97e2dd8efb8f455,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Big (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7ef8b5e6cef6384c97e2dd8efb8f455, type: 3}
 --- !u!1001 &243113254
@@ -197,11 +197,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8392021240671597636, guid: da55f653075c4bd408b835da85d776b3,
-        type: 3}
-      propertyPath: m_Name
-      value: Crystal Purple
-      objectReference: {fileID: 0}
     - target: {fileID: 4768514876271593047, guid: da55f653075c4bd408b835da85d776b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -256,6 +251,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392021240671597636, guid: da55f653075c4bd408b835da85d776b3,
+        type: 3}
+      propertyPath: m_Name
+      value: Crystal Purple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da55f653075c4bd408b835da85d776b3, type: 3}
@@ -624,11 +624,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
-        type: 3}
-      propertyPath: m_Name
-      value: HexagonPillar_Medium_2
-      objectReference: {fileID: 0}
     - target: {fileID: 5645969367536747878, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -683,6 +678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8647433419620693877, guid: 1e74840de43ac544186fcf41e09ecba7,
+        type: 3}
+      propertyPath: m_Name
+      value: HexagonPillar_Medium_2
       objectReference: {fileID: 0}
     - target: {fileID: 6934713216467927977, guid: 1e74840de43ac544186fcf41e09ecba7,
         type: 3}

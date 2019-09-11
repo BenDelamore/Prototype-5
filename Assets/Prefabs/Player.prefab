@@ -289,11 +289,11 @@ MonoBehaviour:
   jumpInputName: Jump
   walkSpeed: 7
   sprintSpeed: 12.5
-  moveSmoothing: 0
   jumpForce: 2
   coyoteTime: 0.2
-  groundedBuffer: 0.1
   canQueueJump: 1
+  checkPointSetRate: 20
+  canSetCheckpoint: 0
   interpolation: 2
   playerCamera: {fileID: 9173764604978279259}
   groundCheck: {fileID: 9173764605676976947}
