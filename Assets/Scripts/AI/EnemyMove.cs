@@ -17,10 +17,11 @@ public class EnemyMove : MonoBehaviour {
     [SerializeField] private float attackStartup = 0.2f;
     [SerializeField] private float attackLength = 0.2f;
     [SerializeField] private float timeBetweenAttacks = 1.0f;
-    public float delayTimer;
-    public float attackTimer;
+    private float delayTimer;
+    private float attackTimer;
     private float attackAniPlayed;
 
+    public GameObject weaponObject;
     private EnemyWeapon weapon;
     private EnemySense sense;
     private PlayerStats player;
@@ -32,11 +33,12 @@ public class EnemyMove : MonoBehaviour {
         sense = GetComponent<EnemySense>();
         rb = GetComponent<Rigidbody>();
         delayTimer = timeBetweenAttacks;
+        weapon = weaponObject.GetComponent<EnemyWeapon>();
 	}
 	
 	void Update () {
 
-        distance = Vector3.Distance(transform.position, sense.lastPlayerLocation);
+        distance = Vector3.Distance(transform.position, sense.currentPlayerLocation);
         rb.velocity *= 0;
 
         // Act based on detection level
@@ -61,7 +63,7 @@ public class EnemyMove : MonoBehaviour {
 
 
         // Attacking logic
-        if (doLook && distance < 2.5f && delayTimer <= 0f)
+        if (doLook && (distance < 2.5f && delayTimer <= 0f))
         {
             Attack();
             isAttacking = true;
@@ -87,7 +89,8 @@ public class EnemyMove : MonoBehaviour {
                 attackTimer = 0;
             }
         }
-
+        // Update enemy weapon collider
+        weaponObject.SetActive(doDamage);
 
         // Chase player
         Vector3 moveDirection = sense.lastPlayerLocation - transform.position;
@@ -115,7 +118,7 @@ public class EnemyMove : MonoBehaviour {
     public void Attack()
     {
 
-        player.Damage(10);
+        //player.Damage(10);
         //ani.SetTrigger("Attack");
     }
 }

@@ -57,6 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e6baf30f4ae404d80cab0caf3426b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
 --- !u!1 &2265252436871672881
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +114,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2265252436871672881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -288,9 +289,8 @@ MonoBehaviour:
   attackDistance: 0
   attackStartup: 0.2
   attackLength: 0.2
-  timeBetweenAttacks: 1
-  delayTimer: 0
-  attackTimer: 0
+  timeBetweenAttacks: 1.5
+  weaponObject: {fileID: 2022484448}
 --- !u!114 &2265252436871672887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,6 +312,7 @@ MonoBehaviour:
   detectionTime: 0.75
   playerInSight: 0
   playerDetected: 0
+  currentPlayerLocation: {x: 0, y: 0, z: 0}
   lastPlayerLocation: {x: 0, y: 0, z: 0}
   player: {fileID: 0}
 --- !u!135 &2265252436871672890
