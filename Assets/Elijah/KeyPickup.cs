@@ -2,19 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum KeyType
+{
+    None,
+    Red,
+    Green,
+    Blue,
+    Purple,
+}
+
 public class KeyPickup : MonoBehaviour
 {
-    public GameObject HeldPrefab;
+    public PlayerKeyHolder currentHolder;
+    public KeyType type = KeyType.Blue;
 
-    private void OnTriggerEnter(Collider other)
+    private void Start()
     {
-        if (other.tag == "Player")
-        {
-            var holder = other.GetComponentInParent<PlayerKeyHolder>();
-            Debug.Assert(holder);
-            var go = Instantiate(HeldPrefab);
-            holder.Add(go);
-            Destroy(gameObject);
-        }
+        Debug.Assert(currentHolder);
+        Debug.Assert(type != KeyType.None);
     }
 }
