@@ -476,6 +476,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -545,11 +550,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -1957,6 +1957,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (43)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2026,11 +2031,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (43)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -3048,6 +3048,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (40)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3102,11 +3107,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (40)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -4111,6 +4111,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (37)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4180,11 +4185,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (37)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -6015,6 +6015,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (15)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6069,11 +6074,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -8661,6 +8661,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (7)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8730,11 +8735,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -9951,7 +9951,7 @@ PrefabInstance:
         type: 3}
       propertyPath: manager
       value: 
-      objectReference: {fileID: 1651712045}
+      objectReference: {fileID: 6901414299626142043}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a1f7f4090a7b04e86ab938bd741c58, type: 3}
 --- !u!1001 &335678330
@@ -10141,7 +10141,7 @@ PrefabInstance:
         type: 3}
       propertyPath: manager
       value: 
-      objectReference: {fileID: 1651712045}
+      objectReference: {fileID: 6901414299626142043}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a1f7f4090a7b04e86ab938bd741c58, type: 3}
 --- !u!4 &344144648 stripped
@@ -11133,6 +11133,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (33)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11202,11 +11207,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (33)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -11301,6 +11301,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (20)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11370,11 +11375,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (20)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -11825,6 +11825,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (45)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11879,11 +11884,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (45)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -13324,6 +13324,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (48)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13378,11 +13383,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (48)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -14380,6 +14380,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (24)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14449,11 +14454,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (24)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -15729,6 +15729,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (8)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15783,11 +15788,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -16038,7 +16038,7 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1365019625556879167, guid: 854822ace28fe2f49948b8d8f3943f5a,
+    - target: {fileID: 2681690104432000823, guid: 854822ace28fe2f49948b8d8f3943f5a,
         type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -16047,16 +16047,16 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 2681690104432000823, guid: 854822ace28fe2f49948b8d8f3943f5a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 6312003531836487561, guid: 854822ace28fe2f49948b8d8f3943f5a,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 93ad965920d6c6c46bf2994a74412f72, type: 2}
+    - target: {fileID: 1365019625556879167, guid: 854822ace28fe2f49948b8d8f3943f5a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 854822ace28fe2f49948b8d8f3943f5a, type: 3}
 --- !u!1001 &529498698
@@ -17972,6 +17972,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (46)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18026,11 +18031,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (46)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -19023,12 +19023,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1430610697}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &616866762 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1551300277}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &619898928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19828,6 +19822,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (3)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19897,11 +19896,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -20350,6 +20344,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (34)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20419,11 +20418,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.626015
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (34)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -20970,6 +20964,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (12)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21039,11 +21038,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -22427,6 +22421,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (11)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22481,11 +22480,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (11)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -25039,6 +25033,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (21)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25108,11 +25107,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (21)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -26880,7 +26874,7 @@ PrefabInstance:
         type: 3}
       propertyPath: manager
       value: 
-      objectReference: {fileID: 1651712045}
+      objectReference: {fileID: 6901414299626142043}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75a1f7f4090a7b04e86ab938bd741c58, type: 3}
 --- !u!1001 &845807660
@@ -26890,6 +26884,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (10)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26959,11 +26958,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -29016,6 +29010,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (35)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29085,11 +29084,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (35)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -30669,6 +30663,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (41)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30723,11 +30722,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (41)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -30918,6 +30912,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (44)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30972,11 +30971,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (44)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -33880,6 +33874,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (47)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33935,88 +33934,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (47)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
---- !u!1001 &1085015277
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6901414300710632885, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_Name
-      value: PanelManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.935865
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.875
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 71.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632887, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6901414300710632884, guid: dae700d4c9fc567478362159915ab42c,
-        type: 3}
-      propertyPath: prefab
-      value: 
-      objectReference: {fileID: 1014179618799407589, guid: 75a1f7f4090a7b04e86ab938bd741c58,
-        type: 3}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dae700d4c9fc567478362159915ab42c, type: 3}
 --- !u!1001 &1085361175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35779,6 +35698,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (42)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -35833,11 +35757,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (42)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -37540,6 +37459,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (36)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37609,11 +37533,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (36)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -37985,6 +37904,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38054,11 +37978,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -38205,6 +38124,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (30)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38274,11 +38198,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (30)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -40704,6 +40623,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (4)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -40773,11 +40697,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -41661,6 +41580,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (9)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -41730,11 +41654,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -41997,6 +41916,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (27)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -42066,11 +41990,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (27)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -43317,6 +43236,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (23)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43386,11 +43310,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (23)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -44479,11 +44398,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Central_pagoda
       objectReference: {fileID: 0}
-    - target: {fileID: -5540499315521155543, guid: c1b29e15b806ad94c9a2758016d2a57d,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: af342ca36ace68148826374fc66e4556, type: 2}
     - target: {fileID: -4216859302048453862, guid: c1b29e15b806ad94c9a2758016d2a57d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -44554,6 +44468,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -5540499315521155543, guid: c1b29e15b806ad94c9a2758016d2a57d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: af342ca36ace68148826374fc66e4556, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1b29e15b806ad94c9a2758016d2a57d, type: 3}
 --- !u!1001 &1396358819
@@ -45193,6 +45112,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (28)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -45262,11 +45186,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (28)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -46348,6 +46267,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (17)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -46417,11 +46341,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (17)
       objectReference: {fileID: 0}
     - target: {fileID: 6267909261736924034, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
@@ -49225,80 +49144,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1507376755}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1551300277
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6669006531695259620, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_Name
-      value: PanelKinds
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.418985
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1226642e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 77.960304
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259627, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6669006531695259626, guid: c671c9ba2355b6349853646a7caa0e3f,
-        type: 3}
-      propertyPath: kindsParent
-      value: 
-      objectReference: {fileID: 616866762}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c671c9ba2355b6349853646a7caa0e3f, type: 3}
 --- !u!1001 &1551878688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51861,6 +51706,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (39)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -51915,11 +51765,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (39)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -53288,18 +53133,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
---- !u!114 &1651712045 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6901414300710632886, guid: dae700d4c9fc567478362159915ab42c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1085015277}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 994fa563b6ef0cc429972a5e6acdc427, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1652249919
 GameObject:
   m_ObjectHideFlags: 0
@@ -53551,6 +53384,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (25)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -53620,11 +53458,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (25)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -54929,6 +54762,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (31)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54998,11 +54836,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (31)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -55668,6 +55501,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55737,11 +55575,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -56574,6 +56407,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (16)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56643,11 +56481,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (16)
       objectReference: {fileID: 0}
     - target: {fileID: 6267909261736924034, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
@@ -56837,6 +56670,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (26)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56907,11 +56745,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.7506764
       objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (26)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
 --- !u!1001 &1757274718
@@ -56921,6 +56754,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (18)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -56990,11 +56828,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (18)
       objectReference: {fileID: 0}
     - target: {fileID: 6267909261736924034, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
@@ -59507,6 +59340,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (38)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -59576,11 +59414,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506822
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (38)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -60214,6 +60047,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (6)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60283,11 +60121,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -60462,6 +60295,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (22)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -60531,11 +60369,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (22)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -61535,6 +61368,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (14)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -61589,11 +61427,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -62139,6 +61972,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (13)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62209,11 +62047,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 3.5013528
       objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (13)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
 --- !u!4 &1947441773 stripped
@@ -62229,6 +62062,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (29)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62298,11 +62136,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (29)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -63407,6 +63240,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (19)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63476,11 +63314,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (19)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -64510,6 +64343,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 651173916}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (38)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -64564,11 +64402,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (38)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -68817,6 +68650,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (32)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -68886,11 +68724,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 3.5013528
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (32)
       objectReference: {fileID: 0}
     - target: {fileID: 6267909261736924034, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
@@ -69083,6 +68916,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 801638156}
     m_Modifications:
+    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
+        type: 3}
+      propertyPath: m_Name
+      value: FloorHexagon (5)
+      objectReference: {fileID: 0}
     - target: {fileID: 8107573769691362585, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -69152,11 +68990,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.7506764
-      objectReference: {fileID: 0}
-    - target: {fileID: 585005312003635270, guid: dcd07781c9c6b4b429f767a4ce61ff9c,
-        type: 3}
-      propertyPath: m_Name
-      value: FloorHexagon (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd07781c9c6b4b429f767a4ce61ff9c, type: 3}
@@ -69789,6 +69622,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e74840de43ac544186fcf41e09ecba7, type: 3}
+--- !u!1001 &924072451253357342
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5986490352946262598, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_Name
+      value: PanelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.935865
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 71.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5986490352946262596, guid: 3a198788948ac1e4ebededfbde93c7f7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3a198788948ac1e4ebededfbde93c7f7, type: 3}
 --- !u!1001 &1733031642057439319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70113,6 +70015,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5593787580003256469}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6901414299626142043 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5986490352946262597, guid: 3a198788948ac1e4ebededfbde93c7f7,
+    type: 3}
+  m_PrefabInstance: {fileID: 924072451253357342}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994fa563b6ef0cc429972a5e6acdc427, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7270907220700306056
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70182,6 +70096,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c2bab191a311824fb177bd192ba245d, type: 3}
+--- !u!1001 &7700771924158435463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3914667495478364630, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_Name
+      value: PanelKinds
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.418985
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.1226642e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 77.960304
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3914667495478364633, guid: fef6298af1cd5134cab16f911f11ff39,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fef6298af1cd5134cab16f911f11ff39, type: 3}
 --- !u!1001 &9173764605840491519
 PrefabInstance:
   m_ObjectHideFlags: 0
