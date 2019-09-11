@@ -12,6 +12,11 @@ public class PlayerStats : MonoBehaviour
     public float damageITime;
     private float damageTimer;
 
+    [SerializeField] private float delayBeforeRegen = 4f;
+    private float regenTimer;
+
+    private float regenFlowOver;
+
     // Start is called before the first frame update
     void Start()
     {
