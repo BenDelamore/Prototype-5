@@ -26,8 +26,9 @@ public class PlayerKeyHolder : MonoBehaviour
         else if (initialKeyPrefab)
         {
             if (IsAllowedType(initialKeyPrefab.type))
-            { 
-                var pickup = Instantiate(initialKeyPrefab);
+            {
+                var player = FindObjectOfType<PlayerMove>().transform;
+                var pickup = Instantiate(initialKeyPrefab, player.TransformPoint(new Vector3(0, 0, 2)), player.rotation);
                 PickItUp(pickup);
                 initialKeyPrefab = null;
             }
@@ -47,10 +48,7 @@ public class PlayerKeyHolder : MonoBehaviour
             return;
         }
         held = pickup;
-        pickup.currentHolder = this;
-        pickup.transform.SetParent(pos, false);
-        pickup.transform.localPosition = Vector3.zero;
-        pickup.transform.localRotation = Quaternion.identity;
+        pickup.OnPickedUp(this);
         onPickedUp?.Invoke(pickup.type);
     }
 
