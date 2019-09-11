@@ -59,10 +59,12 @@ public class SceneSwitcher : MonoBehaviour {
 
         if (isSwitching && !isFading)
         {
-            if (targetScene == null || isRespawning)
+            if (targetScene == "")
             {
                 FindObjectOfType<PlayerMove>().Respawn();
                 isRespawning = false;
+                Debug.Log("Player Respawmed");
+                ExitFade();
             }
             else
             {
@@ -104,6 +106,15 @@ public class SceneSwitcher : MonoBehaviour {
         }
         isSwitching = true;
         fadeTimeCur = fadeTime;
+    }
+
+    public void ExitFade()
+    {
+        isFading = true;
+        isSwitching = false;
+        fadeTimeCur = fadeTime;
+        Vector4 initialColor = fadeImage.color;
+        fadeImage.DOFade(0, fadeTime).SetEase(Ease.InOutSine);
     }
 
     public void EnterMainMenu()

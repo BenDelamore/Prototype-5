@@ -4,7 +4,7 @@ using UnityEngine;
 
 public static class GlobalData
 {
-    private static int timePoint = 0;
+    private static bool inCombat = false;
     private static int questionNumber;
     private static float startPosition = -3.48f;
     private static string lastScene = "HomeExt";
@@ -12,15 +12,15 @@ public static class GlobalData
     private static int dayCount;
 
     
-    public static int TimeOfDay //0 - 2
+    public static bool CombatMode
     {
         get
         {
-            return timePoint;
+            return inCombat;
         }
         set
         {
-            timePoint = value;
+            inCombat = value;
         }
     }
 

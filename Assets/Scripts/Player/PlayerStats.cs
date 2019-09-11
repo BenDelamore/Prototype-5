@@ -48,6 +48,7 @@ public class PlayerStats : MonoBehaviour
             sceneman.isRespawning = true;
             sceneman.StartFade();
             isDead = true;
+            Debug.Log("Dead");
         }
 
         float aTint = 1f - ((float)hpCurrent / (float)hpMax);

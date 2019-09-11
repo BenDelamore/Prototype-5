@@ -50,31 +50,41 @@ public class EnemyMove : MonoBehaviour {
         rb.velocity *= 0;
 
         // Act based on detection level
-        if (sense.playerDetected && displacement < followRange)
+        if (sense.playerDetected && displacement < followRange && !player.isDead)
         {
-            Chase();
-            doChase = true;
-            doLook = true;
+            if (distance > 0.1f)
+            {
+                Chase();
+                doChase = true;
+                doLook = true;
 
-            if ((sense.playerInSight && distance < 2f))
+                if ((sense.playerInSight && distance < 2f))
+                {
+                    doChase = false;
+                }
+            }
+            else
             {
                 doChase = false;
+                doLook = false;
             }
 
+            GlobalData.CombatMode = true;
         }
-        else if (distance < 0.1f)
-        {
-            doChase = false;
-            doLook = false;
-        }
-
-        if (displacement > followRange || !sense.playerDetected)
+        else // Return to spawnpoint if player is out of range
         {
             doChase = false;
             doLook = false;
             hasReturned = true;
             ReturnToBase();
             sense.playerDetected = false;
+
+            GlobalData.CombatMode = false;
+        }
+
+        if (player.isDead)
+        {
+            sense.timeInSight = 0;
         }
 
 
@@ -107,11 +117,9 @@ public class EnemyMove : MonoBehaviour {
                 attackTimer = 0;
             }
         }
+
         // Update enemy weapon collider
         weaponObject.SetActive(doDamage);
-
-
-
     }
 
     private void Chase()
