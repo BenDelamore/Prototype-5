@@ -48,14 +48,16 @@ public class UIHandler : MonoBehaviour {
         }
 
         Cursor.visible = CursorLockMode.Locked != lockState;
+        Cursor.lockState = lockState;
 
-        if (isPaused)
+        if (isPaused && sName != "MainMenu")
         {
             lockState = CursorLockMode.None;
         }
-        else
+        else if (sName != "MainMenu")
         {
             lockState = CursorLockMode.Locked;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 
