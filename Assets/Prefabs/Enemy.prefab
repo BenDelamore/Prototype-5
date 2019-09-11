@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e6baf30f4ae404d80cab0caf3426b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 175
 --- !u!1 &2265252436871672881
 GameObject:
   m_ObjectHideFlags: 0
@@ -269,6 +269,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2265252436871672886}
     m_Modifications:
+    - target: {fileID: 4206538037141871718, guid: de55c53c1b1c42c4ab8d1c097f9e138a,
+        type: 3}
+      propertyPath: m_Name
+      value: Crystal Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 881572850968063605, guid: de55c53c1b1c42c4ab8d1c097f9e138a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -323,11 +328,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4206538037141871718, guid: de55c53c1b1c42c4ab8d1c097f9e138a,
-        type: 3}
-      propertyPath: m_Name
-      value: Crystal Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 8471060839237423336, guid: de55c53c1b1c42c4ab8d1c097f9e138a,
         type: 3}
