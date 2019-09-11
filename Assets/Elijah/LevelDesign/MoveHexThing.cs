@@ -7,16 +7,21 @@ public class MoveHexThing : MonoBehaviour
     public PlayerButtonZone button;
     public List<MoveHexGroup> extendThese = new List<MoveHexGroup>();
     public List<MoveHexGroup> retractThese = new List<MoveHexGroup>();
+    public bool buttonIsToggle = false;
 
     private void Start()
     {
         button.onPressed -= OnPressed;
         button.onPressed += OnPressed;
+
+        button.onReleased -= OnReleased;
+        button.onReleased += OnReleased;
     }
 
     private void OnDestroy()
     {
         button.onPressed -= OnPressed;
+        button.onReleased -= OnReleased;
     }
 
     private void OnPressed()
@@ -29,6 +34,22 @@ public class MoveHexThing : MonoBehaviour
         foreach (var r in retractThese)
         {
             r.Retract();
+        }
+    }
+
+    private void OnReleased()
+    {
+        if (buttonIsToggle)
+        {
+            foreach (var e in extendThese)
+            {
+                e.Retract();
+            }
+
+            foreach (var r in retractThese)
+            {
+                r.Extend();
+            }
         }
     }
 }
