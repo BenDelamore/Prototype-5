@@ -14,8 +14,8 @@ public class EnemySense : MonoBehaviour {
     public bool playerInSight = false;
     public bool playerDetected = false;
     [HideInInspector] public Vector3 currentPlayerLocation;
-    public Vector3 lastPlayerLocation;
-    public GameObject player;
+    [HideInInspector] public Vector3 lastPlayerLocation;
+    private GameObject player;
 
     private SphereCollider sCol;
     private Vector3 previousPlayerLocation;
@@ -29,6 +29,7 @@ public class EnemySense : MonoBehaviour {
 	void Awake () {
         sCol = GetComponent<SphereCollider>();
         sCol.radius = detectionRange;
+        player = GameObject.Find("Player");
 	}
 	
 	// Update is called once per frame
