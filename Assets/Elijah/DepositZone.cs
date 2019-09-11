@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Obsolete("use KeyPedestal")]
 public class DepositZone : MonoBehaviour
 {
     public FinalDoor door;
@@ -13,12 +14,9 @@ public class DepositZone : MonoBehaviour
         {
             var ph = other.GetComponentInParent<PlayerKeyHolder>();
             var th = GetComponent<PlayerKeyHolder>();
-            th.Exchange(ph);
+            //th.TakeAll(ph);
 
-            if (th.heldObjects.Count >= requiredCount)
-            {
-                door.Open();
-            }
+            door.Open();
         }
     }
 }
