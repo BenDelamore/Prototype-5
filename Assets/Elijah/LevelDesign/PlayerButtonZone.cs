@@ -10,6 +10,7 @@ public class PlayerButtonZone : MonoBehaviour
     public List<KeyType> allowedTypes = new List<KeyType> { KeyType.Red };
 
     private List<Collider> colliders = new List<Collider>();
+    public IEnumerable<Collider> touchingColliders { get { return colliders; } }
 
     private void OnTriggerEnter(Collider other)
     {
