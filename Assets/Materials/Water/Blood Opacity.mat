@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mBlood
+  m_Name: Blood Opacity
   m_Shader: {fileID: 4800000, guid: 4076fbc50e98c4f4b91ab8ace88353b5, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
