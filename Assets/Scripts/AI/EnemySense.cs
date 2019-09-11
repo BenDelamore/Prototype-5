@@ -13,6 +13,7 @@ public class EnemySense : MonoBehaviour {
     [SerializeField] private float detectionTime;
     public bool playerInSight = false;
     public bool playerDetected = false;
+    [HideInInspector] public Vector3 currentPlayerLocation;
     public Vector3 lastPlayerLocation;
     public GameObject player;
 
@@ -32,7 +33,10 @@ public class EnemySense : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update ()
-    {   // Check if player is in line of sight, then increment time in sight
+    {
+        currentPlayerLocation = player.transform.position;
+
+        // Check if player is in line of sight, then increment time in sight
         if (playerInSight)
         {
             lastPlayerLocation = player.transform.position;
