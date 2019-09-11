@@ -29,7 +29,7 @@ public class EnemyMove : MonoBehaviour {
     private float distance;
     private Vector3 posInitial;
     private float displacement;
-    private bool hasReturned = false;
+    //private bool hasReturned = false;
     private float timeAtBase;
 
     void Start () {
@@ -75,7 +75,7 @@ public class EnemyMove : MonoBehaviour {
         {
             doChase = false;
             doLook = false;
-            hasReturned = true;
+            //hasReturned = true;
             ReturnToBase();
             sense.playerDetected = false;
 
@@ -84,7 +84,7 @@ public class EnemyMove : MonoBehaviour {
 
         if (player.isDead)
         {
-            sense.timeInSight = 0;
+            sense.timeInSight = -3.0f;
         }
 
 
@@ -165,8 +165,6 @@ public class EnemyMove : MonoBehaviour {
 
     public void Attack()
     {
-
-        //player.Damage(10);
         ani.SetTrigger("IsAttacking");
     }
 }

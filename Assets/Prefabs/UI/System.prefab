@@ -50,6 +50,7 @@ MonoBehaviour:
   curScene: 
   isFading: 0
   isSwitching: 0
+  isRespawning: 0
   fadeTimeCur: 0
 --- !u!114 &4306539430509191560
 MonoBehaviour:
@@ -365,7 +366,7 @@ RectTransform:
   - {fileID: 4306539430840251173}
   - {fileID: 4306539430807014182}
   m_Father: {fileID: 4306539432281984564}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -573,7 +574,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4306539432281984564}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -970,8 +971,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 4306539431319185281}
   - {fileID: 4306539431584592476}
+  - {fileID: 4306539431319185281}
   - {fileID: 4306539432281295679}
   m_Father: {fileID: 4306539431481898740}
   m_RootOrder: 0
