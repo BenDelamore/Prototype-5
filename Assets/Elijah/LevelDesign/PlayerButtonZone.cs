@@ -7,6 +7,7 @@ public class PlayerButtonZone : MonoBehaviour
 {
     public event Action onPressed;
     public event Action onReleased;
+    public List<KeyType> allowedTypes = new List<KeyType> { KeyType.Red };
 
     private List<Collider> colliders = new List<Collider>();
 
@@ -14,10 +15,16 @@ public class PlayerButtonZone : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            bool invoke = colliders.Count == 0;
-            colliders.Add(other);
-            if (invoke) {
-                onPressed?.Invoke();
+            var thing = other.GetComponentInParent<PlayerKeyHolder>();
+            if (thing && allowedTypes.Contains(thing.heldKeyType))
+            {
+                // press this button
+                bool invoke = colliders.Count == 0;
+                colliders.Add(other);
+                if (invoke)
+                {
+                    onPressed?.Invoke();
+                }
             }
         }
     }
