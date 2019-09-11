@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class PlayerMove : MonoBehaviour {
 
+    [Header("Runtime")]
     [SerializeField] private string horizontalInputName;
     [SerializeField] private string verticalInputName;
     [SerializeField] private string jumpInputName;
@@ -15,6 +16,10 @@ public class PlayerMove : MonoBehaviour {
     [SerializeField] private float coyoteTime;
     [SerializeField] private float groundedBuffer;
     public bool canQueueJump;
+
+    [SerializeField] private float checkPointSetRate = 30f;
+    private Vector3 respawnPos;
+    private bool canSetCheckpoint;
 
     private Vector3 moveVector;
     private Vector3 move;
@@ -37,6 +42,7 @@ public class PlayerMove : MonoBehaviour {
     {
         rb = GetComponent<Rigidbody>();
         coyoteTimeCur = coyoteTime;
+        respawnPos = transform.localPosition;
     }
 	
 	void Update ()
@@ -103,5 +109,13 @@ public class PlayerMove : MonoBehaviour {
 
         moveVector = Vector3.ClampMagnitude(moveX + moveZ, 1);
         move = moveVector * moveSpeed * Time.deltaTime;
+    }
+
+    public void Respawn()
+    {
+        transform.localPosition = respawnPos;
+        var stats = FindObjectOfType<PlayerStats>();
+        stats.hpCurrent = stats.hpMax;
+        stats.isDead = false;
     }
 }
