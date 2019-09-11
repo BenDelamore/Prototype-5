@@ -12,7 +12,8 @@ public class PlayerStats : MonoBehaviour
     public int hpCurrent;
     private float damageTimer;
 
-    public GameObject heathTint;
+    public GameObject system;
+    private GameObject heathTint;
     private CanvasGroup canvas;
     [SerializeField] private float delayBeforeRegen = 4f;
     [SerializeField] private float regenRate = 1f;
@@ -24,6 +25,12 @@ public class PlayerStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (GameObject.Find("System") == null)
+        {
+            Instantiate(system);
+            Debug.Log("Added System to scene because it was not added manually");
+        }
+
         hpCurrent = hpMax;
         heathTint = GameObject.Find("Health");
         canvas = heathTint.GetComponent<CanvasGroup>();
@@ -37,8 +44,11 @@ public class PlayerStats : MonoBehaviour
 
         if (hpCurrent <= 0 && !isDead)
         {
-            FindObjectOfType<SceneSwitcher>().SceneSwitch(SceneManager.GetActiveScene().name);
+            var sceneman = FindObjectOfType<SceneSwitcher>();
+            sceneman.isRespawning = true;
+            sceneman.StartFade();
             isDead = true;
+            Debug.Log("Dead");
         }
 
         float aTint = 1f - ((float)hpCurrent / (float)hpMax);

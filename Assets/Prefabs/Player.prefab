@@ -88,7 +88,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 250
   field of view: 60
   orthographic: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
   isDead: 0
   hpMax: 400
   hpCurrent: 400
-  heathTint: {fileID: 0}
+  system: {fileID: 4306539431481898743, guid: bc446c340c8a10d4eb074e894c32afff, type: 3}
   delayBeforeRegen: 4
   regenRate: 1
   regenAmount: 5
