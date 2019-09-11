@@ -9,8 +9,8 @@ public class KillZone : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            // restart level
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            var st = other.GetComponentInParent<PlayerStats>();
+            st.Damage(4000);
         }
     }
 }
