@@ -34,3 +34,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/Effects/Lava.meta~Development
+
+Assets/Matt/PanelKinds.prefab.meta~Development
+
+Assets/Matt/PanelKinds.prefab.meta~HEAD
