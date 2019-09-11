@@ -79,7 +79,7 @@ PrefabInstance:
     - target: {fileID: 6968095184725591649, guid: 85d615091b0b30b4db98d95537e67bc8,
         type: 3}
       propertyPath: m_Name
-      value: KeyPickupGreen
+      value: KeyPickupYellow
       objectReference: {fileID: 0}
     - target: {fileID: 6968095184725591646, guid: 85d615091b0b30b4db98d95537e67bc8,
         type: 3}
@@ -147,11 +147,6 @@ PrefabInstance:
       propertyPath: type
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4740827693223204885, guid: 85d615091b0b30b4db98d95537e67bc8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6968095183141545776, guid: 85d615091b0b30b4db98d95537e67bc8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -167,6 +162,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3f60f76f89005da4f81f65725de6704a, type: 2}
+    - target: {fileID: 4740827693223204885, guid: 85d615091b0b30b4db98d95537e67bc8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85d615091b0b30b4db98d95537e67bc8, type: 3}
 --- !u!4 &8664293465771286408 stripped
