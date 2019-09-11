@@ -69,9 +69,7 @@ public class PlayerMove : MonoBehaviour {
 
         if (checkpointTimer <= 0 && canSetCheckpoint)
         {
-            respawnPos = transform.localPosition;
-            checkpointTimer = checkPointSetRate;
-            Debug.Log("Checkpoint Set");
+            SetCheckpoint(transform.position);
         }
     }
 
@@ -137,8 +135,15 @@ public class PlayerMove : MonoBehaviour {
 
     public void Respawn()
     {
-        transform.localPosition = respawnPos;
+        transform.position = respawnPos;
         stats.hpCurrent = stats.hpMax;
         stats.isDead = false;
+    }
+
+    public void SetCheckpoint(Vector3 pos)
+    {
+        respawnPos = pos;
+        checkpointTimer = checkPointSetRate;
+        Debug.Log("Checkpoint Set");
     }
 }
