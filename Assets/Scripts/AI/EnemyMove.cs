@@ -9,11 +9,11 @@ public class EnemyMove : MonoBehaviour {
     private bool doLook = false;
 
     [SerializeField] private float moveSpeed;
+    [SerializeField] private float followRange = 15f;
 
     public Animator ani;
     public bool isAttacking;
     public bool doDamage;
-    public bool attackDistance;
     [SerializeField] private float attackStartup = 0.2f;
     [SerializeField] private float attackLength = 0.2f;
     [SerializeField] private float timeBetweenAttacks = 1.0f;
@@ -27,6 +27,10 @@ public class EnemyMove : MonoBehaviour {
     private PlayerStats player;
     private Rigidbody rb;
     private float distance;
+    private Vector3 posInitial;
+    private float displacement;
+    private bool hasReturned = false;
+    private float timeAtBase;
 
     void Start () {
         player = FindObjectOfType<PlayerStats>();
@@ -35,19 +39,28 @@ public class EnemyMove : MonoBehaviour {
         delayTimer = timeBetweenAttacks;
         weapon = weaponObject.GetComponent<EnemyWeapon>();
         ani = transform.Find("Crystal Enemy").GetComponent<Animator>();
+        posInitial = transform.position;
 	}
 	
 	void Update () {
 
         distance = Vector3.Distance(transform.position, sense.currentPlayerLocation);
+        displacement = Vector3.Distance(transform.position, posInitial);
+
         rb.velocity *= 0;
 
         // Act based on detection level
-        if (sense.playerDetected)
-        {  
+        if (sense.playerDetected && displacement < followRange)
+        {
+            Chase();
             doChase = true;
             doLook = true;
-            
+
+            if ((sense.playerInSight && distance < 2f))
+            {
+                doChase = false;
+            }
+
         }
         else if (distance < 0.1f)
         {
@@ -55,15 +68,19 @@ public class EnemyMove : MonoBehaviour {
             doLook = false;
         }
 
-        if (sense.playerInSight && distance < 2f)
+        if (displacement > followRange || !sense.playerDetected)
         {
             doChase = false;
+            doLook = false;
+            hasReturned = true;
+            ReturnToBase();
+            sense.playerDetected = false;
         }
-
-        delayTimer = Mathf.MoveTowards(delayTimer, 0, Time.deltaTime);
 
 
         // Attacking logic
+        delayTimer = Mathf.MoveTowards(delayTimer, 0, Time.deltaTime);
+
         if (doLook && (distance < 3.5f && delayTimer <= 0f))
         {
             Attack();
@@ -93,28 +110,50 @@ public class EnemyMove : MonoBehaviour {
         // Update enemy weapon collider
         weaponObject.SetActive(doDamage);
 
+
+
+    }
+
+    private void Chase()
+    {
         // Chase player
         Vector3 moveDirection = sense.lastPlayerLocation - transform.position;
+        Vector3 returnDirection = posInitial - transform.position;
         Quaternion target = Quaternion.LookRotation(moveDirection);
 
         if (doChase)
         {
-            rb.MovePosition (transform.position + transform.forward * moveSpeed * Time.deltaTime);
-        }
-        else
-        {
-            
+            rb.MovePosition(transform.position + transform.forward * moveSpeed * Time.deltaTime);
         }
 
         if (doLook)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, target, 0.2f);
+            transform.rotation = Quaternion.Lerp(transform.rotation, target, Time.deltaTime * 7f);
         }
         else
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), 0.15f);
+            //transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), 0.15f);
         }
     }
+
+    private void ReturnToBase()
+    {
+        Vector3 moveDirection = sense.lastPlayerLocation - transform.position;
+        Vector3 returnDirection = posInitial - transform.position;
+        Quaternion target = Quaternion.LookRotation(returnDirection);
+
+        if (displacement > 2f)
+        {
+            rb.MovePosition(transform.position + transform.forward * moveSpeed/2f * Time.deltaTime);
+            transform.rotation = Quaternion.Lerp(transform.rotation, target, Time.deltaTime * 3f);
+        }
+        else
+        {
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), Time.deltaTime * 1f);
+        }
+
+    }
+
 
     public void Attack()
     {

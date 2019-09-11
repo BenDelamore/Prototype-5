@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHolder: {fileID: 0}
-  type: 3
+  type: 0
 --- !u!1001 &2533107433631285888
 PrefabInstance:
   m_ObjectHideFlags: 0

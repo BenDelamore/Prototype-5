@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using DG.Tweening;
 
 public class PlayerStats : MonoBehaviour
 {
+    public bool isDead;
     public int hpMax = 400;
     public int hpCurrent;
     public float damageITime;
@@ -20,6 +22,12 @@ public class PlayerStats : MonoBehaviour
     void Update()
     {
         damageTimer = Mathf.MoveTowards(damageTimer, 0, Time.deltaTime);
+
+        if (hpCurrent <= 0 && !isDead)
+        {
+            FindObjectOfType<SceneSwitcher>().SceneSwitch(SceneManager.GetActiveScene().name);
+            isDead = true;
+        }
     }
 
     public void Damage(int amount)

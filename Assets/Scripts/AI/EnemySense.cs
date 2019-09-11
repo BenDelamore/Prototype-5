@@ -22,7 +22,7 @@ public class EnemySense : MonoBehaviour {
     private float currentRange;
     private float currentFOV;
     private Vector3 playerDirection;
-    private float timeInSight;
+    [HideInInspector] public float timeInSight;
     private float timeOutSight;
 
 	// Use this for initialization
