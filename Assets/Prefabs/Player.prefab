@@ -88,7 +88,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 250
   field of view: 60
   orthographic: 0
@@ -312,9 +312,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6fb2c88c80599f4591e618bf60638ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDead: 0
   hpMax: 400
   hpCurrent: 400
-  damageITime: 0
+  system: {fileID: 4306539431481898743, guid: bc446c340c8a10d4eb074e894c32afff, type: 3}
+  delayBeforeRegen: 4
+  regenRate: 1
+  regenAmount: 5
 --- !u!114 &1364812682797578764
 MonoBehaviour:
   m_ObjectHideFlags: 0
