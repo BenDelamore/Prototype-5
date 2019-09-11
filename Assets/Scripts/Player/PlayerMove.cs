@@ -135,6 +135,7 @@ public class PlayerMove : MonoBehaviour {
 
     public void Respawn()
     {
+        checkpointTimer = checkPointSetRate;
         transform.position = respawnPos;
         stats.hpCurrent = stats.hpMax;
         stats.isDead = false;
