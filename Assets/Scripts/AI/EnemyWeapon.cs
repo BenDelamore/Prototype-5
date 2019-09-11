@@ -34,7 +34,7 @@ public class EnemyWeapon : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            player.Damage(10);
+            player.Damage(damage);
             Debug.Log("Hit");
         }
     }
