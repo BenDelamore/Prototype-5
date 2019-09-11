@@ -35,8 +35,12 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+<<<<<<< Updated upstream
 Assets/Effects/Lava.meta~Development
 
 Assets/Matt/PanelKinds.prefab.meta~Development
 
 Assets/Matt/PanelKinds.prefab.meta~HEAD
+=======
+Assets/Meshes.meta
+>>>>>>> Stashed changes
