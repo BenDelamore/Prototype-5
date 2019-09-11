@@ -18,7 +18,7 @@ public class SceneSwitcher : MonoBehaviour {
 
     void Awake()
     {
-
+        //fadePanel = GameObject.Find("fadePanel");
     }
 
 	// Use this for initialization
@@ -32,6 +32,8 @@ public class SceneSwitcher : MonoBehaviour {
             GlobalData.LastScene = curScene;
 
         }
+
+        
 
         isFading = true;
         fadeTimeCur = fadeTime;
