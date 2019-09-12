@@ -28,9 +28,10 @@ public class SceneSwitcher : MonoBehaviour {
 
         curScene = SceneManager.GetActiveScene().name;
         Debug.Log(curScene);
-        if (curScene != "MainMenu")
+        if (curScene == "MainMenu")
         {
-            GlobalData.LastScene = curScene;
+            //GlobalData.LastScene = curScene;
+            GlobalData.Victory = false;
 
         }
 

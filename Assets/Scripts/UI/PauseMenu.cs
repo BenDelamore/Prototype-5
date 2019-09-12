@@ -34,6 +34,7 @@ public class PauseMenu : MonoBehaviour {
             ToggleMenu(1f);
             isActive = true;
         }
+
         if (!uiHandler.isPaused && isActive)
         {
             ToggleMenu(0f);
