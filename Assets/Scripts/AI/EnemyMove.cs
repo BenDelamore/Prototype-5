@@ -28,6 +28,7 @@ public class EnemyMove : MonoBehaviour {
     private Rigidbody rb;
     private float distance;
     private Vector3 posInitial;
+    private Quaternion rotInitial;
     private float displacement;
     //private bool hasReturned = false;
     private float timeAtBase;
@@ -40,6 +41,7 @@ public class EnemyMove : MonoBehaviour {
         weapon = weaponObject.GetComponent<EnemyWeapon>();
         ani = transform.Find("Crystal Enemy").GetComponent<Animator>();
         posInitial = transform.position;
+        rotInitial = transform.localRotation;
 	}
 	
 	void Update () {
@@ -157,7 +159,7 @@ public class EnemyMove : MonoBehaviour {
         }
         else
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, transform.rotation.y, transform.rotation.z), Time.deltaTime * 1f);
+            transform.rotation = Quaternion.Lerp(transform.rotation, rotInitial, Time.deltaTime * 1f);
         }
 
     }
