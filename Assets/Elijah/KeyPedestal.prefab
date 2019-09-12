@@ -76,7 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pos: {fileID: 2942791479827145886}
   allowedTypes: 0200000001000000030000000400000000000000
-  initialKeyPrefab: {fileID: 3385668220567435188, guid: 94decd46318cbd54690fad027b2ad050,
+  initialKeyPrefab: {fileID: 3385668220567435188, guid: 885794dea962ef54d880a434e4a0e3c0,
     type: 3}
   held: {fileID: 0}
 --- !u!54 &4177715915316818524
@@ -132,6 +132,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4177715915316818526}
     m_Modifications:
+    - target: {fileID: 778336341696384643, guid: c01a6360da951214081837f7e5a5cb76,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff8f5132f9fc2f3489b452a6706abf8e, type: 2}
     - target: {fileID: 6594491911215200642, guid: edcdeffe812df9348a9927576f07bb83,
         type: 3}
       propertyPath: m_Name
@@ -202,11 +207,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 778336341696384643, guid: c01a6360da951214081837f7e5a5cb76,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ff8f5132f9fc2f3489b452a6706abf8e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edcdeffe812df9348a9927576f07bb83, type: 3}
 --- !u!4 &5081945995242621012 stripped
