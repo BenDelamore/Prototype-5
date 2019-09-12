@@ -21,8 +21,8 @@ public class MovingBlocks : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        posXInitial = transform.localPosition.x;
-        posYInitial = transform.localPosition.y;
+        posXInitial = transform.position.x;
+        posYInitial = transform.position.y;
 
         beatInterval = movePeriod;
         beatTimer = beatInterval + beatOffset;
