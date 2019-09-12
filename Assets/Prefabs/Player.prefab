@@ -289,7 +289,7 @@ MonoBehaviour:
   jumpInputName: Jump
   walkSpeed: 7
   sprintSpeed: 12.5
-  jumpForce: 2
+  jumpForce: 2.25
   coyoteTime: 0.2
   canQueueJump: 1
   checkPointSetRate: 20
