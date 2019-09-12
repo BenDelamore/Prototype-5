@@ -44,13 +44,13 @@ public class UIHandler : MonoBehaviour {
                 Restart();
             }
 
-            Time.timeScale = isPaused ? 0f : 1f;
+            Time.timeScale = (isPaused || GlobalData.Victory) ? 0f : 1f;
         }
 
         Cursor.visible = CursorLockMode.Locked != lockState;
         Cursor.lockState = lockState;
 
-        if (isPaused && sName != "MainMenu")
+        if ((isPaused || GlobalData.Victory) && sName != "MainMenu")
         {
             lockState = CursorLockMode.None;
         }
@@ -63,7 +63,7 @@ public class UIHandler : MonoBehaviour {
 
     public void StartButton()
     {
-        sceneSwitch.SceneSwitch(GlobalData.LastScene);
+        //sceneSwitch.SceneSwitch(GlobalData.LastScene);
         Debug.Log("Hello");
     }
 
@@ -74,7 +74,14 @@ public class UIHandler : MonoBehaviour {
 
     public void PauseButton()
     {
-        isPaused = !isPaused;
+        if (!GlobalData.Victory)
+        {
+            isPaused = !isPaused;
+        }
+        else
+        {
+            isPaused = false;
+        }
     }
 
     public void Restart()
